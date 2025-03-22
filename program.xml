@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<!DOCTYPE songs SYSTEM "data.dtd">
+<songs>
+  <song>
+    <title>Blinding Lights</title>
+    <artist>The Weeknd</artist>
+    <rank>1</rank>
+    <region>USA</region>
+    <period>weekly</period>
+  </song>
+  <song>
+    <title>Shape of You</title>
+    <artist>Ed Sheeran</artist>
+    <rank>2</rank>
+    <region>UK</region>
+    <period>weekly</period>
+  </song>
+  <song>
+    <title>Dance Monkey</title>
+    <artist>Tones and I</artist>
+    <rank>3</rank>
+    <region>Australia</region>
+    <period>weekly</period>
+  </song>
+  <song>
+    <title>Levitating</title>
+    <artist>Dua Lipa</artist>
+    <rank>4</rank>
+    <region>Global</region>
+    <period>weekly</period>
+  </song>
+  <song>
+    <title>Stay</title>
+    <artist>The Kid LAROI &amp; Justin Bieber</artist>
+    <rank>5</rank>
+    <region>USA</region>
+    <period>weekly</period>
+  </song>
+  <song>
+    <title>Watermelon Sugar</title>
+    <artist>Harry Styles</artist>
+    <rank>6</rank>
+    <region>UK</region>
+    <period>weekly</period>
+  </song>
+  <song>
+    <title>Bad Habits</title>
+    <artist>Ed Sheeran</artist>
+    <rank>7</rank>
+    <region>Global</region>
+    <period>weekly</period>
+  </song>
+  <song>
+    <title>Good 4 U</title>
+    <artist>Olivia Rodrigo</artist>
+    <rank>8</rank>
+    <region>USA</region>
+    <period>weekly</period>
+  </song>
+  <song>
+    <title>Save Your Tears</title>
+    <artist>The Weeknd</artist>
+    <rank>9</rank>
+    <region>Global</region>
+    <period>weekly</period>
+  </song>
+  <song>
+    <title>Industry Baby</title>
+    <artist>Lil Nas X &amp; Jack Harlow</artist>
+    <rank>10</rank>
+    <region>USA</region>
+    <period>weekly</period>
+  </song>
+</songs> 
