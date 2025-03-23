@@ -1,0 +1,37 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build website
+        run: npm run build
+
+      - name: Rename main.html to index.html
+        run: mv build/main.html build/index.html
+
+      - name: GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4.1.0
+        with:
+          target_branch: gh-pages
+          build_dir: build
+          keep_history: true
+          commit_message: "Deploy website"
+          jekyll: false
