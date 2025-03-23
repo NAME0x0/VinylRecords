@@ -3,37 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpoRecords - Vinyl & Music Shop</title>
+    <title>Vinyl Records - Collectibles & Music Shop</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <header class="glass">
-            <h1 class="logo"><i class="fa-solid fa-record-vinyl"></i> SpoRecords</h1>
+            <h1 class="logo"><i class="fa-solid fa-record-vinyl"></i> Vinyl Records</h1>
             <nav class="main-nav">
                 <a href="main.html" class="nav-link active">Home</a>
                 <a href="catalog.html" class="nav-link">Catalog</a>
                 <a href="about.html" class="nav-link">About Us</a>
-                <a href="program.xml" class="glass-btn">Top Songs</a>
+                <a href="program.xml" class="nav-link top-vinyls-link">Top Vinyls</a>
             </nav>
         </header>
 
         <main>
             <section class="intro glass">
-                <h2>Welcome to SpoRecords</h2>
+                <div class="retro-badge">Est. 2000</div>
+                <h2>Welcome to Vinyl Records</h2>
                 <p>Your premier destination for vinyl records and music collectibles. We specialize in rare vinyl pressings, limited editions, and classic albums across all genres. Visit us to discover the warm, authentic sound that only vinyl can deliver.</p>
                 
                 <div class="contact-info">
                     <h3>Visit Our Store</h3>
                     <p><i class="fa-solid fa-location-dot"></i> Address: Dubai Mall, Dubai, UAE</p>
                     <p><i class="fa-solid fa-phone"></i> Phone: +971 55 555 5555</p>
-                    <p><i class="fa-solid fa-envelope"></i> Email: info@sporecords.com</p>
+                    <p><i class="fa-solid fa-envelope"></i> Email: info@vinylrecords.com</p>
                 </div>
             </section>
 
             <section class="featured-records glass">
-                <h2><i class="fa-solid fa-fire"></i> Featured Records This Week</h2>
+                <div class="section-header">
+                    <h2><i class="fa-solid fa-fire"></i> Featured Records This Week</h2>
+                    <div class="vintage-line"></div>
+                </div>
                 <div class="records-grid">
                     <div class="record-item">
                         <div class="record-icon"><i class="fa-solid fa-record-vinyl"></i></div>
@@ -69,26 +73,85 @@
                     </div>
                 </div>
                 <div class="view-more-container">
-                    <a href="catalog.html" class="view-more-link">View Full Catalog <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="catalog.html" class="view-more-link">
+                        <span class="vinyl-icon"><i class="fa-solid fa-record-vinyl"></i></span>
+                        View Full Catalog
+                        <span class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
                 </div>
             </section>
 
-            <section class="genres glass">
-                <h2>Music Genres We Stock</h2>
-                <ul>
-                    <li><i class="fa-solid fa-music"></i> Pop</li>
-                    <li><i class="fa-solid fa-guitar"></i> Rock</li>
-                    <li><i class="fa-solid fa-compact-disc"></i> Hip-Hop</li>
-                    <li><i class="fa-solid fa-headphones"></i> Electronic</li>
-                    <li><i class="fa-solid fa-violin"></i> Classical</li>
-                    <li><i class="fa-solid fa-drum"></i> Jazz</li>
-                    <li><i class="fa-solid fa-microphone"></i> R&B</li>
-                    <li><i class="fa-solid fa-guitar-electric"></i> Metal</li>
-                </ul>
-            </section>
+            <div class="two-column-layout">
+                <section class="genres glass">
+                    <h2>Music Genres We Stock</h2>
+                    <ul>
+                        <li><i class="fa-solid fa-music"></i> Pop</li>
+                        <li><i class="fa-solid fa-guitar"></i> Rock</li>
+                        <li><i class="fa-solid fa-compact-disc"></i> Hip-Hop</li>
+                        <li><i class="fa-solid fa-headphones"></i> Electronic</li>
+                        <li><i class="fa-solid fa-violin"></i> Classical</li>
+                        <li><i class="fa-solid fa-drum"></i> Jazz</li>
+                        <li><i class="fa-solid fa-microphone"></i> R&B</li>
+                        <li><i class="fa-solid fa-bolt"></i> Metal</li>
+                    </ul>
+                </section>
 
+                <section class="hours glass">
+                    <h2>Opening Hours</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Day</th>
+                                <th>Opening Time</th>
+                                <th>Closing Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monday</td>
+                                <td>10:00 AM</td>
+                                <td>6:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday</td>
+                                <td>10:00 AM</td>
+                                <td>6:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday</td>
+                                <td>10:00 AM</td>
+                                <td>6:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Thursday</td>
+                                <td>10:00 AM</td>
+                                <td>6:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td>10:00 AM</td>
+                                <td>8:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>10:00 AM</td>
+                                <td>8:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td colspan="2">Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+            
             <section class="store-info glass">
-                <h2>Why Shop With Us?</h2>
+                <div class="section-header">
+                    <h2>Why Shop With Us?</h2>
+                    <div class="vintage-line"></div>
+                </div>
+                <div class="retro-notes">Experience the vinyl difference</div>
                 <div class="info-items">
                     <div class="info-item">
                         <i class="fa-solid fa-record-vinyl fa-2x"></i>
@@ -110,66 +173,85 @@
                     <a href="about.html" class="view-more-link">Learn More About Us <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </section>
-
-            <section class="hours glass">
-                <h2>Opening Hours</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Day</th>
-                            <th>Opening Time</th>
-                            <th>Closing Time</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Monday</td>
-                            <td>10:00 AM</td>
-                            <td>6:00 PM</td>
-                        </tr>
-                        <tr>
-                            <td>Tuesday</td>
-                            <td>10:00 AM</td>
-                            <td>6:00 PM</td>
-                        </tr>
-                        <tr>
-                            <td>Wednesday</td>
-                            <td>10:00 AM</td>
-                            <td>6:00 PM</td>
-                        </tr>
-                        <tr>
-                            <td>Thursday</td>
-                            <td>10:00 AM</td>
-                            <td>6:00 PM</td>
-                        </tr>
-                        <tr>
-                            <td>Friday</td>
-                            <td>10:00 AM</td>
-                            <td>8:00 PM</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday</td>
-                            <td>10:00 AM</td>
-                            <td>8:00 PM</td>
-                        </tr>
-                        <tr>
-                            <td>Sunday</td>
-                            <td colspan="2">Closed</td>
-                        </tr>
-                    </tbody>
-                </table>
+            
+            <div class="vintage-callout glass">
+                <div class="vintage-callout-text">
+                    <h3>"Music sounds better on vinyl"</h3>
+                    <p>Join our community of music lovers and discover the richness and warmth of analog sound.</p>
+                </div>
+            </div>
+            
+            <section class="vinyl-spotlight glass">
+                <div class="section-header">
+                    <h2>Vinyl of the Month</h2>
+                    <div class="vintage-line"></div>
+                </div>
+                <div class="spotlight-container">
+                    <div class="vinyl-display">
+                        <div class="vinyl-record">
+                            <div class="vinyl-label">
+                                <span>VINYL RECORDS EXCLUSIVE</span>
+                            </div>
+                        </div>
+                        <div class="vinyl-arm">
+                            <div class="arm-base"></div>
+                            <div class="arm-shaft"></div>
+                        </div>
+                    </div>
+                    <div class="vinyl-info">
+                        <div class="vinyl-spotlight-details">
+                            <h3>Dark Side of the Moon</h3>
+                            <p class="artist">Pink Floyd</p>
+                            <p class="release-info">1973 · Harvest Records</p>
+                            <p class="description">A groundbreaking progressive rock album featuring innovative production techniques and philosophical themes. This special edition 180g pressing offers exceptional audio quality.</p>
+                            <p class="price-tag">£32.99</p>
+                            <button class="retro-button">Pre-order Now</button>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
 
         <footer class="glass">
             <div class="footer-content">
-                <div class="footer-nav">
-                    <a href="main.html">Home</a>
-                    <a href="catalog.html">Catalog</a>
-                    <a href="about.html">About Us</a>
-                    <a href="program.xml">Top Songs</a>
+                <div class="footer-grid">
+                    <div class="footer-section">
+                        <div class="retro-logo">
+                            <i class="fa-solid fa-record-vinyl"></i>
+                            <span>Vinyl Records</span>
+                        </div>
+                        <p class="footer-description">Your premier destination for vinyl records and music collectibles since 2000.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <div class="footer-nav">
+                            <a href="main.html">Home</a>
+                            <a href="catalog.html">Catalog</a>
+                            <a href="about.html">About Us</a>
+                            <a href="program.xml" class="top-vinyls-link">Top Vinyls</a>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Contact Us</h4>
+                        <div class="contact-info">
+                            <p><i class="fa-solid fa-location-dot"></i> Dubai Mall, Dubai, UAE</p>
+                            <p><i class="fa-solid fa-phone"></i> +971 55 555 5555</p>
+                            <p><i class="fa-solid fa-envelope"></i> info@vinylrecords.com</p>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <p>&copy; 2025 SpoRecords. All rights reserved.</p>
+                <div class="footer-bottom">
+                    <p>&#169; 2025 Vinyl Records. All rights reserved.</p>
+                </div>
             </div>
         </footer>
     </div>

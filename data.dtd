@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT songs (song*)>
-<!ELEMENT song (title, artist, rank, region, period)>
+<!ELEMENT vinyls (vinyl*)>
+<!ELEMENT vinyl (title, artist, rank, region, period)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT artist (#PCDATA)>
 <!ELEMENT rank (#PCDATA)>
