@@ -16,10 +16,12 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '16'  # Updated to a newer LTS version
 
       - name: Install dependencies
         run: npm install
+        env:  # Ensures that the npm registry is accessible
+          CI: true
 
       - name: Build website
         run: npm run build
