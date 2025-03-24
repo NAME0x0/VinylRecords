@@ -1,0 +1,7 @@
+<!ELEMENT vinyls (vinyl*)>
+<!ELEMENT vinyl (title, artist, rank, region, period)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT rank (#PCDATA)>
+<!ELEMENT region (#PCDATA)>
+<!ELEMENT period (#PCDATA)> 

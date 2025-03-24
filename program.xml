@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<!DOCTYPE vinyls SYSTEM "data.dtd">
+<vinyls>
+  <vinyl>
+    <title>Dark Side of the Moon</title>
+    <artist>Pink Floyd</artist>
+    <rank>1</rank>
+    <region>Global</region>
+    <period>All Time</period>
+  </vinyl>
+  <vinyl>
+    <title>Abbey Road</title>
+    <artist>The Beatles</artist>
+    <rank>2</rank>
+    <region>Global</region>
+    <period>All Time</period>
+  </vinyl>
+  <vinyl>
+    <title>Led Zeppelin IV</title>
+    <artist>Led Zeppelin</artist>
+    <rank>3</rank>
+    <region>Global</region>
+    <period>All Time</period>
+  </vinyl>
+  <vinyl>
+    <title>Thriller</title>
+    <artist>Michael Jackson</artist>
+    <rank>4</rank>
+    <region>Global</region>
+    <period>All Time</period>
+  </vinyl>
+  <vinyl>
+    <title>Back in Black</title>
+    <artist>AC/DC</artist>
+    <rank>5</rank>
+    <region>Global</region>
+    <period>All Time</period>
+  </vinyl>
+  <vinyl>
+    <title>Rumours</title>
+    <artist>Fleetwood Mac</artist>
+    <rank>6</rank>
+    <region>Global</region>
+    <period>All Time</period>
+  </vinyl>
+  <vinyl>
+    <title>Hotel California</title>
+    <artist>Eagles</artist>
+    <rank>7</rank>
+    <region>Global</region>
+    <period>All Time</period>
+  </vinyl>
+  <vinyl>
+    <title>Bat Out of Hell</title>
+    <artist>Meat Loaf</artist>
+    <rank>8</rank>
+    <region>Global</region>
+    <period>All Time</period>
+  </vinyl>
+  <vinyl>
+    <title>Come On Over</title>
+    <artist>Shania Twain</artist>
+    <rank>9</rank>
+    <region>Global</region>
+    <period>All Time</period>
+  </vinyl>
+  <vinyl>
+    <title>Saturday Night Fever</title>
+    <artist>Bee Gees</artist>
+    <rank>10</rank>
+    <region>Global</region>
+    <period>All Time</period>
+  </vinyl>
+</vinyls> 
