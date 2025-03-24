@@ -130,7 +130,7 @@ i {
         margin-bottom: 15px;
     }
     
-    .main-nav {
+.main-nav {
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -167,9 +167,9 @@ i {
     
     .main-nav {
         gap: 10px;
-    }
-    
-    .nav-link {
+}
+
+.nav-link {
         padding: 6px 10px;
         font-size: 0.9rem;
     }
@@ -1366,7 +1366,7 @@ i {
 
 @media (max-width: 480px) {
     .main-nav {
-        flex-direction: column;
+    flex-direction: column;
         align-items: stretch;
     }
     
@@ -1514,7 +1514,7 @@ i {
 
 @media (max-width: 768px) {
     .catalog-grid {
-        padding: 15px;
+    padding: 15px;
     }
     
     .category {
@@ -1543,7 +1543,7 @@ i {
     }
     
     .category h3 {
-        font-size: 1.5rem;
+    font-size: 1.5rem;
     }
 }
 
@@ -1695,7 +1695,7 @@ i {
     .contact-info p {
         justify-content: center;
     }
-    
+
     .social-links {
         justify-content: center;
     }
@@ -1703,9 +1703,9 @@ i {
 
 .filter-buttons {
     display: flex;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 15px;
-    justify-content: center;
+        justify-content: center;
     margin-top: 20px;
 }
 
@@ -1788,8 +1788,8 @@ input[type="radio"]:checked + .filter-btn {
 
 .event-date {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+        flex-direction: column;
+        align-items: center;
     justify-content: center;
     min-width: 80px;
     padding: 1rem;

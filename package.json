@@ -1,19 +1,12 @@
 {
   "name": "sporecords",
   "version": "1.0.0",
-  "description": "A project for managing sports records.",
-  "main": "index.js",
+  "description": "A vinyl records shop website",
   "scripts": {
-    "build": "webpack --mode production",
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "webpack": "^5.38.1",
-    "webpack-cli": "^4.7.2"
+    "deploy": "gh-pages -d ."
   },
   "devDependencies": {
-    "webpack-dev-server": "^3.11.2"
+    "gh-pages": "^6.1.1"
   },
   "author": "Your Name",
   "license": "ISC"

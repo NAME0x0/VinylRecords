@@ -11,29 +11,24 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Updated to a newer LTS version
+          node-version: '18'
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
-        env:  # Ensures that the npm registry is accessible
-          CI: true
-
-      - name: Build website
-        run: npm run build
+        run: npm ci
 
       - name: Rename main.html to index.html
-        run: mv build/main.html build/index.html
+        run: cp main.html index.html
 
-      - name: GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4.1.0
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target_branch: gh-pages
-          build_dir: build
-          keep_history: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          publish_branch: gh-pages
           commit_message: "Deploy website"
-          jekyll: false
