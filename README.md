@@ -1,17 +1,17 @@
-# SpoRecords Website
+# Vinyl Records Website
 
-A comprehensive 4-page website for a vinyl records shop created using HTML5, CSS, XML, DTD, and XSL, without any JavaScript. This project was developed as part of the CST1340 Information in Organisations coursework.
+A comprehensive 3-page website for a vinyl records shop created using HTML5, CSS, XML, DTD, and XSL, without any JavaScript. This project was developed as part of the CST1340 Information in Organisations coursework.
 
 ## Project Overview
 
-SpoRecords is a modern, Spotify-inspired static website featuring a complete vinyl record shop experience across four interconnected pages:
+Vinyl Records is a modern, Claude-inspired static website featuring a complete vinyl record shop experience across four interconnected pages:
 
 - **Home Page**: The main landing page showcasing store information and featured records
 - **Catalog Page**: A comprehensive collection of vinyl records organized by category
 - **About Us Page**: Information about the store's history, team, and upcoming events
 - **Program Page**: Displaying top songs data using XML and XSL transformation
 
-The design emphasizes Spotify's signature dark theme with green accents, creating a sleek and professional user experience for vinyl enthusiasts with a cohesive navigation system across all pages.
+The design emphasizes Claude's signature dark theme with orange accents, creating a sleek and professional user experience for vinyl enthusiasts with a cohesive navigation system across all pages.
 
 ## Project Structure
 
@@ -65,15 +65,6 @@ The design emphasizes Spotify's signature dark theme with green accents, creatin
 - Stores information about top songs in XML format
 - Displays the song data in a table using XSL transformation with Spotify-themed styling
 - Maintains consistent navigation with the HTML pages for a seamless experience
-
-## Color Palette
-
-The website uses Spotify's signature color palette:
-
-- Background: `#121212` (Spotify's dark background)
-- Primary accent: `#1db954` (Spotify Green)
-- Text colors: `#ffffff` (white) and `#b3b3b3` (light gray)
-- Secondary backgrounds: `#212121` and `#535353` (dark grays)
 
 ## User Journey
 

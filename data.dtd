@@ -1,7 +1,17 @@
-<!ELEMENT vinyls (vinyl*)>
-<!ELEMENT vinyl (title, artist, rank, region, period)>
+<!ELEMENT songs (song+)>
+<!ELEMENT song (title, artist, year, genre, price, condition, pressing, edition, description, stock)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT artist (#PCDATA)>
-<!ELEMENT rank (#PCDATA)>
-<!ELEMENT region (#PCDATA)>
-<!ELEMENT period (#PCDATA)> 
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT condition (#PCDATA)>
+<!ELEMENT pressing (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+
+<!ATTLIST song id ID #IMPLIED>
+<!ATTLIST song condition (Mint|Excellent|Good|Fair|Poor) "Good">
+<!ATTLIST song pressing (First Pressing|Limited Edition|Original) "Original">
+<!ATTLIST song edition (Standard|Remastered|Special) "Standard"> 
