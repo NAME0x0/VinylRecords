@@ -93,6 +93,7 @@ nav {
     font-weight: 800;
     background: linear-gradient(45deg, var(--gold-accent), var(--claude-orange));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 3px;
     transition: var(--hover-transition);
@@ -160,6 +161,7 @@ main {
     margin-bottom: 1.5rem;
     background: linear-gradient(45deg, var(--gold-accent), var(--claude-orange));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: fadeInUp 1.2s ease;
     letter-spacing: 2px;
@@ -652,6 +654,7 @@ h1, h2, h3 {
     font-weight: 800;
     background: linear-gradient(45deg, var(--gold-accent), var(--claude-orange));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 3px;
 }
