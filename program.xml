@@ -1,75 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="style.xsl"?>
-<!DOCTYPE vinyls SYSTEM "data.dtd">
-<vinyls>
-  <vinyl>
-    <title>Dark Side of the Moon</title>
-    <artist>Pink Floyd</artist>
-    <rank>1</rank>
-    <region>Global</region>
-    <period>All Time</period>
-  </vinyl>
-  <vinyl>
-    <title>Abbey Road</title>
-    <artist>The Beatles</artist>
-    <rank>2</rank>
-    <region>Global</region>
-    <period>All Time</period>
-  </vinyl>
-  <vinyl>
-    <title>Led Zeppelin IV</title>
-    <artist>Led Zeppelin</artist>
-    <rank>3</rank>
-    <region>Global</region>
-    <period>All Time</period>
-  </vinyl>
-  <vinyl>
-    <title>Thriller</title>
-    <artist>Michael Jackson</artist>
-    <rank>4</rank>
-    <region>Global</region>
-    <period>All Time</period>
-  </vinyl>
-  <vinyl>
-    <title>Back in Black</title>
-    <artist>AC/DC</artist>
-    <rank>5</rank>
-    <region>Global</region>
-    <period>All Time</period>
-  </vinyl>
-  <vinyl>
-    <title>Rumours</title>
-    <artist>Fleetwood Mac</artist>
-    <rank>6</rank>
-    <region>Global</region>
-    <period>All Time</period>
-  </vinyl>
-  <vinyl>
-    <title>Hotel California</title>
-    <artist>Eagles</artist>
-    <rank>7</rank>
-    <region>Global</region>
-    <period>All Time</period>
-  </vinyl>
-  <vinyl>
-    <title>Bat Out of Hell</title>
-    <artist>Meat Loaf</artist>
-    <rank>8</rank>
-    <region>Global</region>
-    <period>All Time</period>
-  </vinyl>
-  <vinyl>
-    <title>Come On Over</title>
-    <artist>Shania Twain</artist>
-    <rank>9</rank>
-    <region>Global</region>
-    <period>All Time</period>
-  </vinyl>
-  <vinyl>
-    <title>Saturday Night Fever</title>
-    <artist>Bee Gees</artist>
-    <rank>10</rank>
-    <region>Global</region>
-    <period>All Time</period>
-  </vinyl>
-</vinyls> 
+<!DOCTYPE songs SYSTEM "data.dtd">
+<songs>
+    <song>
+        <title>Led Zeppelin IV</title>
+        <artist>Led Zeppelin</artist>
+        <year>1971</year>
+        <genre>Rock</genre>
+        <price>149.99</price>
+        <condition>Mint</condition>
+        <pressing>First Pressing</pressing>
+        <edition>Standard</edition>
+        <description>Original UK pressing with gatefold sleeve</description>
+        <stock>3</stock>
+    </song>
+    <song>
+        <title>Blue</title>
+        <artist>Joni Mitchell</artist>
+        <year>1971</year>
+        <genre>Folk</genre>
+        <price>129.99</price>
+        <condition>Excellent</condition>
+        <pressing>Limited Edition</pressing>
+        <edition>Remastered</edition>
+        <description>180g vinyl remastered edition with original artwork</description>
+        <stock>1</stock>
+    </song>
+    <song>
+        <title>Bohemian Rhapsody</title>
+        <artist>Queen</artist>
+        <year>1975</year>
+        <genre>Rock</genre>
+        <price>159.99</price>
+        <condition>Mint</condition>
+        <pressing>Original</pressing>
+        <edition>Standard</edition>
+        <description>Original UK pressing with inner sleeve</description>
+        <stock>2</stock>
+    </song>
+    <song>
+        <title>Dark Side of the Moon</title>
+        <artist>Pink Floyd</artist>
+        <year>1973</year>
+        <genre>Progressive Rock</genre>
+        <price>179.99</price>
+        <condition>Excellent</condition>
+        <pressing>Original</pressing>
+        <edition>Standard</edition>
+        <description>Original UK pressing with posters and stickers</description>
+        <stock>1</stock>
+    </song>
+    <song>
+        <title>Thriller</title>
+        <artist>Michael Jackson</artist>
+        <year>1982</year>
+        <genre>Pop</genre>
+        <price>199.99</price>
+        <condition>Mint</condition>
+        <pressing>Original</pressing>
+        <edition>Standard</edition>
+        <description>Original US pressing with gatefold sleeve</description>
+        <stock>2</stock>
+    </song>
+    <song>
+        <title>Kind of Blue</title>
+        <artist>Miles Davis</artist>
+        <year>1959</year>
+        <genre>Jazz</genre>
+        <price>229.99</price>
+        <condition>Excellent</condition>
+        <pressing>Original</pressing>
+        <edition>Standard</edition>
+        <description>Original Columbia pressing with original artwork</description>
+        <stock>1</stock>
+    </song>
+    <song>
+        <title>Abbey Road</title>
+        <artist>The Beatles</artist>
+        <year>1969</year>
+        <genre>Rock</genre>
+        <price>249.99</price>
+        <condition>Mint</condition>
+        <pressing>Original</pressing>
+        <edition>Standard</edition>
+        <description>Original UK pressing with original artwork</description>
+        <stock>1</stock>
+    </song>
+</songs> 

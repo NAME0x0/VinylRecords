@@ -3,240 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinyl Records - Catalog</title>
+    <title>Vinyl Library - Vinyl Records Dubai</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <header class="glass">
-            <h1 class="logo"><i class="fa-solid fa-record-vinyl"></i> Vinyl Records</h1>
-            <nav class="main-nav">
-                <a href="main.html" class="nav-link">Home</a>
-                <a href="catalog.html" class="nav-link active">Catalog</a>
-                <a href="about.html" class="nav-link">About Us</a>
-                <a href="program.xml" class="nav-link top-vinyls-link">Top Vinyls</a>
-            </nav>
-        </header>
+    <header class="glass-nav">
+        <nav>
+            <div class="logo">Vinyl Records</div>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="catalog.html" class="active">Vinyl Library</a></li>
+                <li><a href="program.xml">Top Songs</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <main>
-            <section class="page-header glass">
-                <h2><i class="fa-solid fa-compact-disc"></i> Our Vinyl Collection</h2>
-                <p>Browse our extensive catalog of vinyl records. From rare collectibles to new releases, we have something for every music lover.</p>
-                <div class="catalog-banner">
-                    <div class="banner-text">
-                        <span class="banner-highlight">NEW ARRIVALS EVERY WEEK</span>
-                    </div>
+    <main>
+        <section class="glass-card">
+            <h1>Vinyl Library</h1>
+            <p class="collection-intro">Browse our extensive collection of premium vinyl records, from rare first pressings to limited editions</p>
+            
+            <div class="library-controls">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search by title, artist, or genre..." class="search-input">
                 </div>
-                <div class="turntable">
-                    <div class="platter"></div>
-                    <div class="tonearm-base"></div>
-                    <div class="tonearm-arm"></div>
+                <div class="filter-options">
+                    <select class="filter-select">
+                        <option value="">All Genres</option>
+                        <option value="Rock">Rock</option>
+                        <option value="Jazz">Jazz</option>
+                        <option value="Pop">Pop</option>
+                        <option value="Classical">Classical</option>
+                        <option value="Progressive Rock">Progressive Rock</option>
+                    </select>
+                    <select class="filter-select">
+                        <option value="">All Conditions</option>
+                        <option value="Mint">Mint</option>
+                        <option value="Excellent">Excellent</option>
+                        <option value="Good">Good</option>
+                        <option value="Fair">Fair</option>
+                        <option value="Poor">Poor</option>
+                    </select>
+                    <select class="filter-select">
+                        <option value="">Sort By</option>
+                        <option value="price-asc">Price: Low to High</option>
+                        <option value="price-desc">Price: High to Low</option>
+                        <option value="year-desc">Year: Newest First</option>
+                        <option value="year-asc">Year: Oldest First</option>
+                    </select>
                 </div>
-            </section>
-
-            <section class="catalog-filter glass">
-                <h3>Filter by Genre</h3>
-                <div class="filter-buttons">
-                    <input type="radio" name="genre-filter" id="all" checked>
-                    <label for="all" class="filter-btn">All</label>
-                    <input type="radio" name="genre-filter" id="rock">
-                    <label for="rock" class="filter-btn">Rock</label>
-                    <input type="radio" name="genre-filter" id="jazz">
-                    <label for="jazz" class="filter-btn">Jazz</label>
-                    <input type="radio" name="genre-filter" id="hiphop">
-                    <label for="hiphop" class="filter-btn">Hip-Hop</label>
-                    <input type="radio" name="genre-filter" id="electronic">
-                    <label for="electronic" class="filter-btn">Electronic</label>
-                    <input type="radio" name="genre-filter" id="classical">
-                    <label for="classical" class="filter-btn">Classical</label>
-                </div>
-            </section>
-
-            <section class="catalog-grid glass">
-                <div class="category">
-                    <h3>New Arrivals</h3>
-                    <div class="records-grid">
-                        <div class="record-item">
-                            <div class="vinyl-sleeve-3d">
-                                <div class="sleeve-front">
-                                    <div class="sleeve-label">NEW</div>
-                                </div>
-                                <div class="vinyl-disc"></div>
-                            </div>
-                            <div class="record-info">
-                                <h3>Blue Train</h3>
-                                <p>John Coltrane</p>
-                                <p class="genre-tag">Jazz</p>
-                                <p class="record-price">£34.99</p>
-                            </div>
-                        </div>
-                        <div class="record-item">
-                            <div class="vinyl-sleeve-3d">
-                                <div class="sleeve-front">
-                                    <div class="sleeve-label">HOT</div>
-                                </div>
-                                <div class="vinyl-disc"></div>
-                            </div>
-                            <div class="record-info">
-                                <h3>OK Computer</h3>
-                                <p>Radiohead</p>
-                                <p class="genre-tag">Rock</p>
-                                <p class="record-price">£28.99</p>
-                            </div>
-                        </div>
-                        <div class="record-item">
-                            <div class="vinyl-sleeve-3d">
-                                <div class="sleeve-front">
-                                    <div class="sleeve-label">LIMITED</div>
-                                </div>
-                                <div class="vinyl-disc"></div>
-                            </div>
-                            <div class="record-info">
-                                <h3>To Pimp a Butterfly</h3>
-                                <p>Kendrick Lamar</p>
-                                <p class="genre-tag">Hip-Hop</p>
-                                <p class="record-price">£32.99</p>
-                            </div>
-                        </div>
-                        <div class="record-item">
-                            <div class="vinyl-sleeve-3d">
-                                <div class="sleeve-front">
-                                    <div class="sleeve-label">CLASSIC</div>
-                                </div>
-                                <div class="vinyl-disc"></div>
-                            </div>
-                            <div class="record-info">
-                                <h3>Disintegration</h3>
-                                <p>The Cure</p>
-                                <p class="genre-tag">Rock</p>
-                                <p class="record-price">£29.99</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="category">
-                    <h3>Classic Rock</h3>
-                    <div class="records-grid">
-                        <div class="record-item">
-                            <div class="vinyl-sleeve-3d">
-                                <div class="sleeve-front"></div>
-                                <div class="vinyl-disc"></div>
-                            </div>
-                            <div class="record-info">
-                                <h3>Dark Side of the Moon</h3>
-                                <p>Pink Floyd</p>
-                                <p class="genre-tag">Rock</p>
-                                <p class="record-price">£29.99</p>
-                            </div>
-                        </div>
-                        <div class="record-item">
-                            <div class="vinyl-sleeve-3d">
-                                <div class="sleeve-front"></div>
-                                <div class="vinyl-disc"></div>
-                            </div>
-                            <div class="record-info">
-                                <h3>Led Zeppelin IV</h3>
-                                <p>Led Zeppelin</p>
-                                <p class="genre-tag">Rock</p>
-                                <p class="record-price">£27.99</p>
-                            </div>
-                        </div>
-                        <div class="record-item">
-                            <div class="vinyl-sleeve-3d">
-                                <div class="sleeve-front"></div>
-                                <div class="vinyl-disc"></div>
-                            </div>
-                            <div class="record-info">
-                                <h3>Exile on Main St.</h3>
-                                <p>The Rolling Stones</p>
-                                <p class="genre-tag">Rock</p>
-                                <p class="record-price">£26.99</p>
-                            </div>
-                        </div>
-                        <div class="record-item">
-                            <div class="vinyl-sleeve-3d">
-                                <div class="sleeve-front"></div>
-                                <div class="vinyl-disc"></div>
-                            </div>
-                            <div class="record-info">
-                                <h3>The Queen Is Dead</h3>
-                                <p>The Smiths</p>
-                                <p class="genre-tag">Rock</p>
-                                <p class="record-price">£28.99</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="category">
-                    <h3>Electronic Essentials</h3>
-                    <div class="records-grid">
-                        <div class="record-item">
-                            <div class="vinyl-sleeve-3d">
-                                <div class="sleeve-front"></div>
-                                <div class="vinyl-disc"></div>
-                            </div>
-                            <div class="record-info">
-                                <h3>Homework</h3>
-                                <p>Daft Punk</p>
-                                <p class="genre-tag">Electronic</p>
-                                <p class="record-price">£31.99</p>
-                            </div>
-                        </div>
-                        <div class="record-item">
-                            <div class="vinyl-sleeve-3d">
-                                <div class="sleeve-front"></div>
-                                <div class="vinyl-disc"></div>
-                            </div>
-                            <div class="record-info">
-                                <h3>Selected Ambient Works</h3>
-                                <p>Aphex Twin</p>
-                                <p class="genre-tag">Electronic</p>
-                                <p class="record-price">£33.99</p>
-                            </div>
-                        </div>
-                        <div class="record-item">
-                            <div class="vinyl-sleeve-3d">
-                                <div class="sleeve-front"></div>
-                                <div class="vinyl-disc"></div>
-                            </div>
-                            <div class="record-info">
-                                <h3>Discovery</h3>
-                                <p>Daft Punk</p>
-                                <p class="genre-tag">Electronic</p>
-                                <p class="record-price">£30.99</p>
-                            </div>
-                        </div>
-                        <div class="record-item">
-                            <div class="vinyl-sleeve-3d">
-                                <div class="sleeve-front"></div>
-                                <div class="vinyl-disc"></div>
-                            </div>
-                            <div class="record-info">
-                                <h3>Dig Your Own Hole</h3>
-                                <p>The Chemical Brothers</p>
-                                <p class="genre-tag">Electronic</p>
-                                <p class="record-price">£27.99</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer class="glass">
-            <div class="footer-content">
-                <div class="footer-nav">
-                    <a href="main.html">Home</a>
-                    <a href="catalog.html">Catalog</a>
-                    <a href="about.html">About Us</a>
-                    <a href="program.xml" class="top-vinyls-link">Top Vinyls</a>
-                </div>
-                <p>&copy; 2025 Vinyl Records. All rights reserved.</p>
             </div>
-        </footer>
-    </div>
+
+            <div class="library-stats">
+                <div class="stat-item">
+                    <i class="fas fa-record-vinyl"></i>
+                    <span>Total Records: 11</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-star"></i>
+                    <span>Mint Condition: 5</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-clock"></i>
+                    <span>First Pressings: 3</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-tag"></i>
+                    <span>Limited Editions: 2</span>
+                </div>
+            </div>
+
+            <div class="catalog-grid">
+                <!-- Catalog Records -->
+                <div class="record-item">
+                    <div class="vinyl-sleeve">
+                        <div class="vinyl-disc"></div>
+                    </div>
+                    <div class="record-info">
+                        <h3>Led Zeppelin IV</h3>
+                        <p class="artist">Led Zeppelin</p>
+                        <p class="genre">First Pressing</p>
+                        <p class="condition">Mint Condition</p>
+                        <p class="price">AED 149.99</p>
+                        <div class="record-actions">
+                            <button class="btn-details">View Details</button>
+                            <button class="btn-preview">Preview</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="record-item">
+                    <div class="vinyl-sleeve">
+                        <div class="vinyl-disc"></div>
+                    </div>
+                    <div class="record-info">
+                        <h3>Blue</h3>
+                        <p class="artist">Joni Mitchell</p>
+                        <p class="genre">Limited Edition</p>
+                        <p class="condition">Excellent</p>
+                        <p class="price">AED 129.99</p>
+                        <div class="record-actions">
+                            <button class="btn-details">View Details</button>
+                            <button class="btn-preview">Preview</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Program.xml Records -->
+                <div class="record-item">
+                    <div class="vinyl-sleeve">
+                        <div class="vinyl-disc"></div>
+                    </div>
+                    <div class="record-info">
+                        <h3>Bohemian Rhapsody</h3>
+                        <p class="artist">Queen</p>
+                        <p class="genre">Rock</p>
+                        <p class="condition">Mint</p>
+                        <p class="price">AED 159.99</p>
+                        <div class="record-actions">
+                            <button class="btn-details">View Details</button>
+                            <button class="btn-preview">Preview</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="record-item">
+                    <div class="vinyl-sleeve">
+                        <div class="vinyl-disc"></div>
+                    </div>
+                    <div class="record-info">
+                        <h3>Dark Side of the Moon</h3>
+                        <p class="artist">Pink Floyd</p>
+                        <p class="genre">Progressive Rock</p>
+                        <p class="condition">Excellent</p>
+                        <p class="price">AED 179.99</p>
+                        <div class="record-actions">
+                            <button class="btn-details">View Details</button>
+                            <button class="btn-preview">Preview</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="record-item">
+                    <div class="vinyl-sleeve">
+                        <div class="vinyl-disc"></div>
+                    </div>
+                    <div class="record-info">
+                        <h3>Thriller</h3>
+                        <p class="artist">Michael Jackson</p>
+                        <p class="genre">Pop</p>
+                        <p class="condition">Mint</p>
+                        <p class="price">AED 199.99</p>
+                        <div class="record-actions">
+                            <button class="btn-details">View Details</button>
+                            <button class="btn-preview">Preview</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="record-item">
+                    <div class="vinyl-sleeve">
+                        <div class="vinyl-disc"></div>
+                    </div>
+                    <div class="record-info">
+                        <h3>Kind of Blue</h3>
+                        <p class="artist">Miles Davis</p>
+                        <p class="genre">Jazz</p>
+                        <p class="condition">Excellent</p>
+                        <p class="price">AED 229.99</p>
+                        <div class="record-actions">
+                            <button class="btn-details">View Details</button>
+                            <button class="btn-preview">Preview</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <button class="page-btn"><i class="fas fa-chevron-left"></i></button>
+                <span class="page-number active">1</span>
+                <span class="page-number">2</span>
+                <span class="page-number">3</span>
+                <button class="page-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Dubai's premier destination for premium vinyl records and high-fidelity listening experiences since 2024</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="catalog.html">Vinyl Library</a></li>
+                    <li><a href="program.xml">Top Songs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@vinylrecords.ae</p>
+                <p>Phone: +971 4 123 4567</p>
+                <p>Private consultations available</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Vinyl Records. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html> 
