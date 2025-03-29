@@ -1,96 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="html" indent="yes"/>
+    <xsl:output method="html" indent="yes" encoding="UTF-8"/>
     <xsl:template match="/">
-        <html>
+        <!DOCTYPE html>
+        <html lang="en">
             <head>
-                <title>Vinyl Library - Vinyl Records Dubai</title>
+                <meta charset="UTF-8"/>
+                <title>Vinyl Records Library</title>
                 <link rel="stylesheet" href="styles.css"/>
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
             </head>
             <body>
-                <header class="glass-nav">
+                <header>
                     <nav>
-                        <div class="logo">Vinyl Records</div>
                         <ul>
                             <li><a href="main.html">Home</a></li>
                             <li><a href="catalog.html">Catalog</a></li>
-                            <li><a href="program.xml" class="active">Vinyl Library</a></li>
+                            <li><a href="program.xml">Top Songs</a></li>
                         </ul>
                     </nav>
                 </header>
-
                 <main>
-                    <section class="glass-card">
-                        <h1>Vinyl Library</h1>
-                        <p class="collection-intro">Browse our extensive collection of premium vinyl records, from rare first pressings to limited editions</p>
-                        
-                        <div class="library-stats">
+                    <h1>Vinyl Records Library</h1>
+                    <section class="stats">
+                        <h2>Library Statistics</h2>
+                        <div class="stats-grid">
                             <div class="stat-item">
-                                <i class="fas fa-record-vinyl"></i>
-                                <span>Total Records: <xsl:value-of select="count(songs/song)"/></span>
+                                <h3>Total Records</h3>
+                                <p><xsl:value-of select="count(songs/song)"/></p>
                             </div>
                             <div class="stat-item">
-                                <i class="fas fa-star"></i>
-                                <span>Mint Condition: <xsl:value-of select="count(songs/song[condition='Mint'])"/></span>
+                                <h3>Mint Condition</h3>
+                                <p><xsl:value-of select="count(songs/song[@condition='Mint'])"/></p>
                             </div>
                             <div class="stat-item">
-                                <i class="fas fa-clock"></i>
-                                <span>First Pressings: <xsl:value-of select="count(songs/song[pressing='First Pressing'])"/></span>
+                                <h3>First Pressings</h3>
+                                <p><xsl:value-of select="count(songs/song[@pressing='First Pressing'])"/></p>
                             </div>
                             <div class="stat-item">
-                                <i class="fas fa-tag"></i>
-                                <span>Limited Editions: <xsl:value-of select="count(songs/song[pressing='Limited Edition'])"/></span>
+                                <h3>Limited Editions</h3>
+                                <p><xsl:value-of select="count(songs/song[@edition='Limited Edition'])"/></p>
                             </div>
-                        </div>
-
-                        <div class="catalog-grid">
-                            <xsl:for-each select="songs/song">
-                                <div class="record-item">
-                                    <div class="vinyl-sleeve">
-                                        <div class="vinyl-disc"></div>
-                                    </div>
-                                    <div class="record-info">
-                                        <h3><xsl:value-of select="title"/></h3>
-                                        <p class="artist"><xsl:value-of select="artist"/></p>
-                                        <p class="year"><xsl:value-of select="year"/></p>
-                                        <p class="genre"><xsl:value-of select="genre"/></p>
-                                        <p class="condition"><xsl:value-of select="condition"/></p>
-                                        <p class="pressing"><xsl:value-of select="pressing"/></p>
-                                        <p class="edition"><xsl:value-of select="edition"/></p>
-                                        <p class="description"><xsl:value-of select="description"/></p>
-                                        <p class="stock">In Stock: <xsl:value-of select="stock"/></p>
-                                        <p class="price">AED <xsl:value-of select="price"/></p>
-                                    </div>
-                                </div>
-                            </xsl:for-each>
                         </div>
                     </section>
+                    <section class="records">
+                        <h2>Available Records</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Artist</th>
+                                    <th>Year</th>
+                                    <th>Genre</th>
+                                    <th>Price</th>
+                                    <th>Condition</th>
+                                    <th>Pressing</th>
+                                    <th>Stock</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <xsl:for-each select="songs/song">
+                                    <tr>
+                                        <td><xsl:value-of select="title"/></td>
+                                        <td><xsl:value-of select="artist"/></td>
+                                        <td><xsl:value-of select="year"/></td>
+                                        <td><xsl:value-of select="genre"/></td>
+                                        <td>$<xsl:value-of select="price"/></td>
+                                        <td><xsl:value-of select="@condition"/></td>
+                                        <td><xsl:value-of select="@pressing"/></td>
+                                        <td><xsl:value-of select="stock"/></td>
+                                    </tr>
+                                </xsl:for-each>
+                            </tbody>
+                        </table>
+                    </section>
                 </main>
-
-                <footer class="glass-footer">
+                <footer>
                     <div class="footer-content">
                         <div class="footer-section">
                             <h3>About Us</h3>
-                            <p>Dubai&apos;s premier destination for premium vinyl records and high-fidelity listening experiences since 2024</p>
-                        </div>
-                        <div class="footer-section">
-                            <h3>Quick Links</h3>
-                            <ul>
-                                <li><a href="main.html">Home</a></li>
-                                <li><a href="catalog.html">Catalog</a></li>
-                                <li><a href="program.xml">Vinyl Library</a></li>
-                            </ul>
+                            <p>Your trusted source for rare and collectible vinyl records since 1990.</p>
                         </div>
                         <div class="footer-section">
                             <h3>Contact</h3>
-                            <p>Email: info@vinylrecords.ae</p>
-                            <p>Phone: +971 4 123 4567</p>
-                            <p>Private consultations available</p>
+                            <p>Email: info@vinylrecords.com</p>
+                            <p>Phone: (555) 123-4567</p>
                         </div>
                     </div>
                     <div class="footer-bottom">
-                        <p>&#169; 2024 Vinyl Records. All rights reserved.</p>
+                        <p>&copy; 2024 Vinyl Records Library. All rights reserved.</p>
                     </div>
                 </footer>
             </body>
