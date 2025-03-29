@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="style.xsl"?>
 <!DOCTYPE songs SYSTEM "data.dtd">
 <songs>
-    <song>
+    <song id="led-zeppelin-iv" condition="Mint" pressing="First Pressing" edition="Standard">
         <title>Led Zeppelin IV</title>
         <artist>Led Zeppelin</artist>
         <year>1971</year>
@@ -14,7 +14,7 @@
         <description>Original UK pressing with gatefold sleeve</description>
         <stock>3</stock>
     </song>
-    <song>
+    <song id="blue" condition="Excellent" pressing="Limited Edition" edition="Limited Edition">
         <title>Blue</title>
         <artist>Joni Mitchell</artist>
         <year>1971</year>
@@ -22,11 +22,11 @@
         <price>129.99</price>
         <condition>Excellent</condition>
         <pressing>Limited Edition</pressing>
-        <edition>Remastered</edition>
+        <edition>Limited Edition</edition>
         <description>180g vinyl remastered edition with original artwork</description>
         <stock>1</stock>
     </song>
-    <song>
+    <song id="bohemian-rhapsody" condition="Mint" pressing="Original" edition="Standard">
         <title>Bohemian Rhapsody</title>
         <artist>Queen</artist>
         <year>1975</year>
@@ -38,7 +38,7 @@
         <description>Original UK pressing with inner sleeve</description>
         <stock>2</stock>
     </song>
-    <song>
+    <song id="dark-side" condition="Excellent" pressing="Original" edition="Standard">
         <title>Dark Side of the Moon</title>
         <artist>Pink Floyd</artist>
         <year>1973</year>
@@ -50,7 +50,7 @@
         <description>Original UK pressing with posters and stickers</description>
         <stock>1</stock>
     </song>
-    <song>
+    <song id="thriller" condition="Mint" pressing="Original" edition="Standard">
         <title>Thriller</title>
         <artist>Michael Jackson</artist>
         <year>1982</year>
@@ -62,7 +62,7 @@
         <description>Original US pressing with gatefold sleeve</description>
         <stock>2</stock>
     </song>
-    <song>
+    <song id="kind-of-blue" condition="Excellent" pressing="Original" edition="Standard">
         <title>Kind of Blue</title>
         <artist>Miles Davis</artist>
         <year>1959</year>
@@ -74,7 +74,7 @@
         <description>Original Columbia pressing with original artwork</description>
         <stock>1</stock>
     </song>
-    <song>
+    <song id="abbey-road" condition="Mint" pressing="Original" edition="Standard">
         <title>Abbey Road</title>
         <artist>The Beatles</artist>
         <year>1969</year>
