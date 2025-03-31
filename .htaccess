@@ -1,6 +1,0 @@
-AddType application/xml .xml
-AddType text/xml .xml
-AddType application/x-xml .xml
-AddType application/xslt+xml .xsl
-AddType text/xsl .xsl
-AddType application/x-xsl .xsl 
