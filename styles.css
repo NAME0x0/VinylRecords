@@ -827,7 +827,7 @@ h1, h2, h3 {
 }
 
 /* Library Stats */
-.library-stats {
+.stats {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
@@ -836,6 +836,7 @@ h1, h2, h3 {
     background: rgba(255, 255, 255, 0.03);
     border-radius: 20px;
     border: 1px solid var(--glass-border);
+    margin-bottom: 3rem;
 }
 
 .stat-item {
@@ -858,9 +859,14 @@ h1, h2, h3 {
     color: var(--gold-accent);
 }
 
-.stat-item span {
+.stat-item span, .stat-item p {
     font-size: 1.1rem;
     color: var(--text-primary);
+}
+
+/* Library Records Section */
+.records {
+    margin-top: 3rem;
 }
 
 /* Enhanced Record Items */

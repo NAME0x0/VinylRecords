@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinyl Library - Vinyl Records Dubai</title>
+    <title>Vinyl Records - Catalog</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -13,15 +13,15 @@
             <div class="logo">Vinyl Records</div>
             <ul>
                 <li><a href="main.html">Home</a></li>
-                <li><a href="catalog.html" class="active">Vinyl Library</a></li>
-                <li><a href="xml-viewer.html">Top Songs</a></li>
+                <li><a href="catalog.html" class="active">Catalog</a></li>
+                <li><a href="program.xml">Vinyl Library</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section class="glass-card">
-            <h1>Vinyl Library</h1>
+            <h1>Vinyl Records Catalog</h1>
             <p class="collection-intro">Browse our extensive collection of premium vinyl records, from rare first pressings to limited editions</p>
             
             <div class="library-controls">
@@ -35,8 +35,13 @@
                         <option value="Rock">Rock</option>
                         <option value="Jazz">Jazz</option>
                         <option value="Pop">Pop</option>
+                        <option value="Folk">Folk</option>
                         <option value="Classical">Classical</option>
                         <option value="Progressive Rock">Progressive Rock</option>
+                        <option value="Reggae">Reggae</option>
+                        <option value="Electronic">Electronic</option>
+                        <option value="R&B">R&B</option>
+                        <option value="Hip Hop">Hip Hop</option>
                     </select>
                     <select class="filter-select">
                         <option value="">All Conditions</option>
@@ -59,19 +64,19 @@
             <div class="library-stats">
                 <div class="stat-item">
                     <i class="fas fa-record-vinyl"></i>
-                    <span>Total Records: 11</span>
+                    <span>Total Records: 87</span>
                 </div>
                 <div class="stat-item">
                     <i class="fas fa-star"></i>
-                    <span>Mint Condition: 5</span>
+                    <span>Mint Condition: 84</span>
                 </div>
                 <div class="stat-item">
                     <i class="fas fa-clock"></i>
-                    <span>First Pressings: 3</span>
+                    <span>First Pressings: 69</span>
                 </div>
                 <div class="stat-item">
                     <i class="fas fa-tag"></i>
-                    <span>Limited Editions: 2</span>
+                    <span>Limited Editions: 11</span>
                 </div>
             </div>
 
@@ -82,46 +87,11 @@
                         <div class="vinyl-disc"></div>
                     </div>
                     <div class="record-info">
-                        <h3>Led Zeppelin IV</h3>
-                        <p class="artist">Led Zeppelin</p>
-                        <p class="genre">First Pressing</p>
-                        <p class="condition">Mint Condition</p>
-                        <p class="price">AED 149.99</p>
-                        <div class="record-actions">
-                            <button class="btn-details">View Details</button>
-                            <button class="btn-preview">Preview</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="record-item">
-                    <div class="vinyl-sleeve">
-                        <div class="vinyl-disc"></div>
-                    </div>
-                    <div class="record-info">
-                        <h3>Blue</h3>
-                        <p class="artist">Joni Mitchell</p>
+                        <h3>The Tortured Poets Department</h3>
+                        <p class="artist">Taylor Swift</p>
                         <p class="genre">Limited Edition</p>
-                        <p class="condition">Excellent</p>
-                        <p class="price">AED 129.99</p>
-                        <div class="record-actions">
-                            <button class="btn-details">View Details</button>
-                            <button class="btn-preview">Preview</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Program.xml Records -->
-                <div class="record-item">
-                    <div class="vinyl-sleeve">
-                        <div class="vinyl-disc"></div>
-                    </div>
-                    <div class="record-info">
-                        <h3>Bohemian Rhapsody</h3>
-                        <p class="artist">Queen</p>
-                        <p class="genre">Rock</p>
                         <p class="condition">Mint</p>
-                        <p class="price">AED 159.99</p>
+                        <p class="price">$49.99</p>
                         <div class="record-actions">
                             <button class="btn-details">View Details</button>
                             <button class="btn-preview">Preview</button>
@@ -134,28 +104,11 @@
                         <div class="vinyl-disc"></div>
                     </div>
                     <div class="record-info">
-                        <h3>Dark Side of the Moon</h3>
-                        <p class="artist">Pink Floyd</p>
-                        <p class="genre">Progressive Rock</p>
-                        <p class="condition">Excellent</p>
-                        <p class="price">AED 179.99</p>
-                        <div class="record-actions">
-                            <button class="btn-details">View Details</button>
-                            <button class="btn-preview">Preview</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="record-item">
-                    <div class="vinyl-sleeve">
-                        <div class="vinyl-disc"></div>
-                    </div>
-                    <div class="record-info">
-                        <h3>Thriller</h3>
-                        <p class="artist">Michael Jackson</p>
-                        <p class="genre">Pop</p>
+                        <h3>Definitely Maybe</h3>
+                        <p class="artist">Oasis</p>
+                        <p class="genre">First Pressing</p>
                         <p class="condition">Mint</p>
-                        <p class="price">AED 199.99</p>
+                        <p class="price">$39.99</p>
                         <div class="record-actions">
                             <button class="btn-details">View Details</button>
                             <button class="btn-preview">Preview</button>
@@ -168,11 +121,62 @@
                         <div class="vinyl-disc"></div>
                     </div>
                     <div class="record-info">
-                        <h3>Kind of Blue</h3>
-                        <p class="artist">Miles Davis</p>
-                        <p class="genre">Jazz</p>
-                        <p class="condition">Excellent</p>
-                        <p class="price">AED 229.99</p>
+                        <h3>The Rise and Fall of a Midwest Princess</h3>
+                        <p class="artist">Chappell Roan</p>
+                        <p class="genre">Limited Edition</p>
+                        <p class="condition">Mint</p>
+                        <p class="price">$34.99</p>
+                        <div class="record-actions">
+                            <button class="btn-details">View Details</button>
+                            <button class="btn-preview">Preview</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="record-item">
+                    <div class="vinyl-sleeve">
+                        <div class="vinyl-disc"></div>
+                    </div>
+                    <div class="record-info">
+                        <h3>Short N' Sweet</h3>
+                        <p class="artist">Sabrina Carpenter</p>
+                        <p class="genre">First Pressing</p>
+                        <p class="condition">Mint</p>
+                        <p class="price">$29.99</p>
+                        <div class="record-actions">
+                            <button class="btn-details">View Details</button>
+                            <button class="btn-preview">Preview</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="record-item">
+                    <div class="vinyl-sleeve">
+                        <div class="vinyl-disc"></div>
+                    </div>
+                    <div class="record-info">
+                        <h3>Romance</h3>
+                        <p class="artist">Fontaines DC</p>
+                        <p class="genre">First Pressing</p>
+                        <p class="condition">Mint</p>
+                        <p class="price">$32.99</p>
+                        <div class="record-actions">
+                            <button class="btn-details">View Details</button>
+                            <button class="btn-preview">Preview</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="record-item">
+                    <div class="vinyl-sleeve">
+                        <div class="vinyl-disc"></div>
+                    </div>
+                    <div class="record-info">
+                        <h3>Hit Me Hard and Soft</h3>
+                        <p class="artist">Billie Eilish</p>
+                        <p class="genre">Limited Edition</p>
+                        <p class="condition">Mint</p>
+                        <p class="price">$44.99</p>
                         <div class="record-actions">
                             <button class="btn-details">View Details</button>
                             <button class="btn-preview">Preview</button>
@@ -186,6 +190,8 @@
                 <span class="page-number active">1</span>
                 <span class="page-number">2</span>
                 <span class="page-number">3</span>
+                <span class="page-number">4</span>
+                <span class="page-number">5</span>
                 <button class="page-btn"><i class="fas fa-chevron-right"></i></button>
             </div>
         </section>
@@ -201,8 +207,8 @@
                 <h3>Quick Links</h3>
                 <ul>
                     <li><a href="main.html">Home</a></li>
-                    <li><a href="catalog.html">Vinyl Library</a></li>
-                    <li><a href="xml-viewer.html">Top Songs</a></li>
+                    <li><a href="catalog.html">Catalog</a></li>
+                    <li><a href="program.xml">Vinyl Library</a></li>
                 </ul>
             </div>
             <div class="footer-section">

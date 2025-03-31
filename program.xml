@@ -8,10 +8,6 @@
         <year>1971</year>
         <genre>Rock</genre>
         <price>149.99</price>
-        <condition>Mint</condition>
-        <pressing>First Pressing</pressing>
-        <edition>Standard</edition>
-        <description>Original UK pressing with gatefold sleeve</description>
         <stock>3</stock>
     </song>
     <song id="blue" condition="Excellent" pressing="Limited Edition" edition="Limited Edition">
@@ -20,10 +16,6 @@
         <year>1971</year>
         <genre>Folk</genre>
         <price>129.99</price>
-        <condition>Excellent</condition>
-        <pressing>Limited Edition</pressing>
-        <edition>Limited Edition</edition>
-        <description>180g vinyl remastered edition with original artwork</description>
         <stock>1</stock>
     </song>
     <song id="bohemian-rhapsody" condition="Mint" pressing="Original" edition="Standard">
@@ -32,10 +24,6 @@
         <year>1975</year>
         <genre>Rock</genre>
         <price>159.99</price>
-        <condition>Mint</condition>
-        <pressing>Original</pressing>
-        <edition>Standard</edition>
-        <description>Original UK pressing with inner sleeve</description>
         <stock>2</stock>
     </song>
     <song id="dark-side" condition="Excellent" pressing="Original" edition="Standard">
@@ -44,10 +32,6 @@
         <year>1973</year>
         <genre>Progressive Rock</genre>
         <price>179.99</price>
-        <condition>Excellent</condition>
-        <pressing>Original</pressing>
-        <edition>Standard</edition>
-        <description>Original UK pressing with posters and stickers</description>
         <stock>1</stock>
     </song>
     <song id="thriller" condition="Mint" pressing="Original" edition="Standard">
@@ -56,10 +40,6 @@
         <year>1982</year>
         <genre>Pop</genre>
         <price>199.99</price>
-        <condition>Mint</condition>
-        <pressing>Original</pressing>
-        <edition>Standard</edition>
-        <description>Original US pressing with gatefold sleeve</description>
         <stock>2</stock>
     </song>
     <song id="kind-of-blue" condition="Excellent" pressing="Original" edition="Standard">
@@ -68,10 +48,6 @@
         <year>1959</year>
         <genre>Jazz</genre>
         <price>229.99</price>
-        <condition>Excellent</condition>
-        <pressing>Original</pressing>
-        <edition>Standard</edition>
-        <description>Original Columbia pressing with original artwork</description>
         <stock>1</stock>
     </song>
     <song id="abbey-road" condition="Mint" pressing="Original" edition="Standard">
@@ -80,10 +56,646 @@
         <year>1969</year>
         <genre>Rock</genre>
         <price>249.99</price>
-        <condition>Mint</condition>
-        <pressing>Original</pressing>
-        <edition>Standard</edition>
-        <description>Original UK pressing with original artwork</description>
         <stock>1</stock>
     </song>
-</songs> 
+    <song id="tortured-poets" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+        <title>The Tortured Poets Department</title>
+        <artist>Taylor Swift</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>49.99</price>
+        <stock>5</stock>
+    </song>
+    <song id="definitely-maybe" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Definitely Maybe</title>
+        <artist>Oasis</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>39.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="midwest-princess" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+        <title>The Rise and Fall of a Midwest Princess</title>
+        <artist>Chappell Roan</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>34.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="short-n-sweet" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Short N' Sweet</title>
+        <artist>Sabrina Carpenter</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>29.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="romance" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Romance</title>
+        <artist>Fontaines DC</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>32.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="hit-me-hard" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+        <title>Hit Me Hard and Soft</title>
+        <artist>Billie Eilish</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>44.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="rumours" condition="Excellent" pressing="Original" edition="Standard">
+        <title>Rumours</title>
+        <artist>Fleetwood Mac</artist>
+        <year>1977</year>
+        <genre>Rock</genre>
+        <price>39.99</price>
+        <stock>5</stock>
+    </song>
+    <song id="songs-lost-world" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+        <title>Songs of a Lost World</title>
+        <artist>The Cure</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>49.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="moon-music" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Moon Music</title>
+        <artist>Coldplay</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>42.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="brat" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+        <title>Brat</title>
+        <artist>Charli XCX</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>34.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="dark-side" condition="Excellent" pressing="Original" edition="Standard">
+        <title>The Dark Side of the Moon</title>
+        <artist>Pink Floyd</artist>
+        <year>1973</year>
+        <genre>Progressive Rock</genre>
+        <price>49.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="prelude-ecstasy" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Prelude to Ecstasy</title>
+        <artist>The Last Dinner Party</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>32.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="back-to-black" condition="Excellent" pressing="Original" edition="Standard">
+        <title>Back to Black</title>
+        <artist>Amy Winehouse</artist>
+        <year>2006</year>
+        <genre>Pop</genre>
+        <price>39.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="gallagher-squire" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+        <title>Liam Gallagher &amp; John Squire</title>
+        <artist>Liam Gallagher &amp; John Squire</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>44.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="radical-optimism" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Radical Optimism</title>
+        <artist>Dua Lipa</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>39.99</price>
+        <stock>5</stock>
+    </song>
+    <song id="guts" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Guts</title>
+        <artist>Olivia Rodrigo</artist>
+        <year>2023</year>
+        <genre>Pop</genre>
+        <price>34.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="morning-glory" condition="Excellent" pressing="Original" edition="Standard">
+        <title>What's the Story Morning Glory</title>
+        <artist>Oasis</artist>
+        <year>1995</year>
+        <genre>Rock</genre>
+        <price>39.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="tangk" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>TANGK</title>
+        <artist>IDLES</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>32.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="am" condition="Excellent" pressing="Original" edition="Standard">
+        <title>AM</title>
+        <artist>Arctic Monkeys</artist>
+        <year>2013</year>
+        <genre>Rock</genre>
+        <price>34.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="taylors-version" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+        <title>1989 (Taylor's Version)</title>
+        <artist>Taylor Swift</artist>
+        <year>2023</year>
+        <genre>Pop</genre>
+        <price>44.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="legend" condition="Excellent" pressing="Original" edition="Standard">
+        <title>Legend</title>
+        <artist>Bob Marley &amp; The Wailers</artist>
+        <year>1984</year>
+        <genre>Reggae</genre>
+        <price>39.99</price>
+        <stock>5</stock>
+    </song>
+    <song id="stone-roses" condition="Excellent" pressing="Original" edition="Standard">
+        <title>The Stone Roses</title>
+        <artist>The Stone Roses</artist>
+        <year>1989</year>
+        <genre>Rock</genre>
+        <price>34.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="stick-season" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Stick Season</title>
+        <artist>Noah Kahan</artist>
+        <year>2022</year>
+        <genre>Folk</genre>
+        <price>32.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="grace" condition="Excellent" pressing="Original" edition="Standard">
+        <title>Grace</title>
+        <artist>Jeff Buckley</artist>
+        <year>1994</year>
+        <genre>Rock</genre>
+        <price>39.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="eternal-sunshine" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+        <title>Eternal Sunshine</title>
+        <artist>Ariana Grande</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>42.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="from-zero" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>From Zero</title>
+        <artist>Linkin Park</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>39.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="ok-computer" condition="Excellent" pressing="Original" edition="Standard">
+        <title>OK Computer</title>
+        <artist>Radiohead</artist>
+        <year>1997</year>
+        <genre>Rock</genre>
+        <price>44.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="lover" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Lover</title>
+        <artist>Taylor Swift</artist>
+        <year>2019</year>
+        <genre>Pop</genre>
+        <price>34.99</price>
+        <stock>5</stock>
+    </song>
+    <song id="folklore" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Folklore</title>
+        <artist>Taylor Swift</artist>
+        <year>2020</year>
+        <genre>Pop</genre>
+        <price>39.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="luck-strange" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+        <title>Luck and Strange</title>
+        <artist>David Gilmour</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>44.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="queen-is-dead" condition="Excellent" pressing="Original" edition="Standard">
+        <title>The Queen is Dead</title>
+        <artist>The Smiths</artist>
+        <year>1986</year>
+        <genre>Rock</genre>
+        <price>34.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="saviors" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Saviors</title>
+        <artist>Green Day</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>39.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="american-idiot" condition="Excellent" pressing="Original" edition="Standard">
+        <title>American Idiot</title>
+        <artist>Green Day</artist>
+        <year>2004</year>
+        <genre>Rock</genre>
+        <price>34.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="cowboy-carter" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+        <title>Cowboy Carter</title>
+        <artist>Beyoncé</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>49.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="evermore" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Evermore</title>
+        <artist>Taylor Swift</artist>
+        <year>2020</year>
+        <genre>Pop</genre>
+        <price>39.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="wild-god" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Wild God</title>
+        <artist>Nick Cave &amp; The Bad Seeds</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>42.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="midnights" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Midnights</title>
+        <artist>Taylor Swift</artist>
+        <year>2022</year>
+        <genre>Pop</genre>
+        <price>39.99</price>
+        <stock>5</stock>
+    </song>
+    <song id="66" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>66</title>
+        <artist>Paul Weller</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>34.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="clancy" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Clancy</title>
+        <artist>Twenty One Pilots</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>39.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="californication" condition="Excellent" pressing="Original" edition="Standard">
+        <title>Californication</title>
+        <artist>Red Hot Chili Peppers</artist>
+        <year>1999</year>
+        <genre>Rock</genre>
+        <price>34.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-gallagher-squire-rainbow" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Just Another Rainbow</title>
+        <artist>Liam Gallagher &amp; John Squire</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>14.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-roan-goodluck" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Good Luck Babe</title>
+        <artist>Chappell Roan</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>12.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="single-kahan-stickseason" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Stick Season</title>
+        <artist>Noah Kahan</artist>
+        <year>2024</year>
+        <genre>Folk</genre>
+        <price>12.99</price>
+        <stock>5</stock>
+    </song>
+    <song id="single-oasis-supersonic" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Supersonic</title>
+        <artist>Oasis</artist>
+        <year>2024</year> 
+        <genre>Rock</genre>
+        <price>19.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="single-wham-lastchristmas" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Last Christmas</title>
+        <artist>Wham</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>19.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-rodrigo-stickseason" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Stick Season</title>
+        <artist>Olivia Rodrigo</artist> 
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>14.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="single-grande-yesand" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Yes And</title>
+        <artist>Ariana Grande</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>12.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-mccullen-bitch" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Bitch</title>
+        <artist>Dave McCullen</artist>
+        <year>2024</year>
+        <genre>Electronic</genre> 
+        <price>14.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="single-raye-genesis" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Genesis</title>
+        <artist>Raye</artist>
+        <year>2024</year>
+        <genre>R&amp;B</genre> 
+        <price>12.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-carpenter-espresso" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Espresso</title>
+        <artist>Sabrina Carpenter</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>12.99</price>
+        <stock>5</stock>
+    </song>
+     <song id="single-lipa-houdini" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Houdini</title>
+        <artist>Dua Lipa</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>14.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="single-eilish-whatwasimadefor" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>What Was I Made For</title>
+        <artist>Billie Eilish</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>14.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-lipa-trainingseason" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Training Season</title>
+        <artist>Dua Lipa</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>14.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="single-lastdinnerparty-nothingmatters" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Nothing Matters</title>
+        <artist>Last Dinner Party</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>12.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-knopfler-goinghome" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Going Home (Theme From Local Hero)</title>
+        <artist>Mark Knopfler's Guitar Heroes</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>19.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="single-bush-eatthemusic" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Eat The Music</title>
+        <artist>Kate Bush</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>14.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="single-michael-carelesswhisper" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Careless Whisper</title>
+        <artist>George Michael</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>19.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-bandaid-dotheyknow" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Do They Know It's Christmas</title>
+        <artist>Band Aid</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>19.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-catfish-showtime" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Showtime</title>
+        <artist>Catfish &amp; The Bottlemen</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>12.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="single-quavo-tough" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Tough</title>
+        <artist>Quavo/Lana Del Rey</artist>
+        <year>2024</year>
+        <genre>Hip Hop</genre> 
+        <price>14.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="single-carpenter-please" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Please Please Please</title>
+        <artist>Sabrina Carpenter</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>12.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="single-queen-coolcat" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Cool Cat</title>
+        <artist>Queen</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>19.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="single-beatles-nowandthen" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Now and Then</title>
+        <artist>Beatles</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>19.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-noelgallagher-inalittlewhile" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>In a Little While</title>
+        <artist>Noel Gallagher's High Flying</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>14.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="single-ellisbextor-murder" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Murder on the Dancefloor</title>
+        <artist>Sophie Ellis-Bextor</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>14.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="single-wolfalice-creaturesongs" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Creature Songs</title>
+        <artist>Wolf Alice</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>14.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="single-u2-atomiccity" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Atomic City</title>
+        <artist>U2</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>14.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-rodrigo-badidearight" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Bad Idea Right</title>
+        <artist>Olivia Rodrigo</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>12.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="single-boygenius-blackhole" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Black Hole</title>
+        <artist>Boygenius</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>12.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="single-coldplay-wepray" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>We Pray</title>
+        <artist>Coldplay</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>14.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-1975-milk" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Milk</title>
+        <artist>1975</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>14.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-abba-waterloo" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Waterloo</title>
+        <artist>ABBA</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>19.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="single-jade-angelofmydreams" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Angel of My Dreams</title>
+        <artist>Jade</artist>
+        <year>2024</year>
+        <genre>Pop</genre> 
+        <price>12.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="single-minogue-lightscameraction" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Lights Camera Action</title>
+        <artist>Kylie Minogue</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>14.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-minogue-myohmy" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>My Oh My</title>
+        <artist>Minogue/Bebe Rexha/Tove Lo</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>14.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-weller-thatswhatshesaid" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>That's What She Said</title>
+        <artist>Paul Weller</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>12.99</price>
+        <stock>2</stock>
+    </song>
+    <song id="single-beatles-iwanttoholdyourhand" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>I Want To Hold Your Hand</title>
+        <artist>Beatles</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>19.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-lanadelrey-sayyestoheaven" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Say Yes To Heaven</title>
+        <artist>Lana Del Rey</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>14.99</price>
+        <stock>4</stock>
+    </song>
+    <song id="single-grande-wecantbefriends" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>We Can't Be Friends (Wait For Your Love)</title>
+        <artist>Ariana Grande</artist>
+        <year>2024</year>
+        <genre>Pop</genre>
+        <price>12.99</price>
+        <stock>3</stock>
+    </song>
+    <song id="single-weller-soulwandering" condition="Mint" pressing="First Pressing" edition="Standard">
+        <title>Soul Wandering</title>
+        <artist>Paul Weller</artist>
+        <year>2024</year>
+        <genre>Rock</genre>
+        <price>12.99</price>
+        <stock>2</stock>
+    </song>
+</songs>
