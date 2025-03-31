@@ -826,6 +826,12 @@ h1, h2, h3 {
     box-shadow: 0 0 15px rgba(212, 175, 55, 0.1);
 }
 
+/* Add this rule for dropdown options */
+.filter-select option {
+    color: #333; /* Dark grey text color for options */
+    background-color: white; /* Explicitly set background if needed */
+}
+
 /* Library Stats */
 .stats {
     display: grid;
