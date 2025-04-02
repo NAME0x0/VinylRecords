@@ -25,6 +25,18 @@ jobs:
       - name: Rename main.html to index.html
         run: cp main.html index.html
 
+      - name: Update links in deployed files
+        run: |
+          sed -i 's/href="program.xml"/href="program.html"/g' index.html
+          sed -i 's/href="program.xml"/href="program.html"/g' catalog.html
+          # Correct the link in style.xsl (it previously pointed to viewer.html)
+          sed -i 's/href="viewer.html"/href="program.html"/g' style.xsl
+
+      - name: Transform XML with XSLT
+        run: |
+          sudo apt-get update && sudo apt-get install -y xsltproc
+          xsltproc -o program.html style.xsl program.xml
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
