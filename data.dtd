@@ -10,5 +10,5 @@
 
 <!ATTLIST song id ID #IMPLIED>
 <!ATTLIST song condition (Mint|Excellent|Good|Fair|Poor) "Good">
-<!ATTLIST song pressing (First Pressing|Limited Edition|Original) "Original">
-<!ATTLIST song edition (Standard|Remastered|Special|Limited Edition) "Standard"> 
+<!ATTLIST song pressing (FirstPressing|LimitedEdition|Original) "Original">
+<!ATTLIST song edition (Standard|Remastered|Special|LimitedEdition) "Standard"> 

@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="style.xsl"?>
 <!DOCTYPE songs SYSTEM "data.dtd">
 <songs>
-    <song id="led-zeppelin-iv" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="led-zeppelin-iv" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Led Zeppelin IV</title>
         <artist>Led Zeppelin</artist>
         <year>1971</year>
@@ -10,7 +10,7 @@
         <price>149.99</price>
         <stock>3</stock>
     </song>
-    <song id="blue" condition="Excellent" pressing="Limited Edition" edition="Limited Edition">
+    <song id="blue" condition="Excellent" pressing="LimitedEdition" edition="LimitedEdition">
         <title>Blue</title>
         <artist>Joni Mitchell</artist>
         <year>1971</year>
@@ -58,7 +58,7 @@
         <price>249.99</price>
         <stock>1</stock>
     </song>
-    <song id="tortured-poets" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+    <song id="tortured-poets" condition="Mint" pressing="FirstPressing" edition="LimitedEdition">
         <title>The Tortured Poets Department</title>
         <artist>Taylor Swift</artist>
         <year>2024</year>
@@ -66,7 +66,7 @@
         <price>49.99</price>
         <stock>5</stock>
     </song>
-    <song id="definitely-maybe" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="definitely-maybe" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Definitely Maybe</title>
         <artist>Oasis</artist>
         <year>2024</year>
@@ -74,7 +74,7 @@
         <price>39.99</price>
         <stock>3</stock>
     </song>
-    <song id="midwest-princess" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+    <song id="midwest-princess" condition="Mint" pressing="FirstPressing" edition="LimitedEdition">
         <title>The Rise and Fall of a Midwest Princess</title>
         <artist>Chappell Roan</artist>
         <year>2024</year>
@@ -82,7 +82,7 @@
         <price>34.99</price>
         <stock>2</stock>
     </song>
-    <song id="short-n-sweet" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="short-n-sweet" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Short N' Sweet</title>
         <artist>Sabrina Carpenter</artist>
         <year>2024</year>
@@ -90,7 +90,7 @@
         <price>29.99</price>
         <stock>4</stock>
     </song>
-    <song id="romance" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="romance" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Romance</title>
         <artist>Fontaines DC</artist>
         <year>2024</year>
@@ -98,7 +98,7 @@
         <price>32.99</price>
         <stock>3</stock>
     </song>
-    <song id="hit-me-hard" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+    <song id="hit-me-hard" condition="Mint" pressing="FirstPressing" edition="LimitedEdition">
         <title>Hit Me Hard and Soft</title>
         <artist>Billie Eilish</artist>
         <year>2024</year>
@@ -114,7 +114,7 @@
         <price>39.99</price>
         <stock>5</stock>
     </song>
-    <song id="songs-lost-world" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+    <song id="songs-lost-world" condition="Mint" pressing="FirstPressing" edition="LimitedEdition">
         <title>Songs of a Lost World</title>
         <artist>The Cure</artist>
         <year>2024</year>
@@ -122,7 +122,7 @@
         <price>49.99</price>
         <stock>3</stock>
     </song>
-    <song id="moon-music" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="moon-music" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Moon Music</title>
         <artist>Coldplay</artist>
         <year>2024</year>
@@ -130,7 +130,7 @@
         <price>42.99</price>
         <stock>4</stock>
     </song>
-    <song id="brat" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+    <song id="brat" condition="Mint" pressing="FirstPressing" edition="LimitedEdition">
         <title>Brat</title>
         <artist>Charli XCX</artist>
         <year>2024</year>
@@ -146,7 +146,7 @@
         <price>49.99</price>
         <stock>3</stock>
     </song>
-    <song id="prelude-ecstasy" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="prelude-ecstasy" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Prelude to Ecstasy</title>
         <artist>The Last Dinner Party</artist>
         <year>2024</year>
@@ -162,7 +162,7 @@
         <price>39.99</price>
         <stock>3</stock>
     </song>
-    <song id="gallagher-squire" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+    <song id="gallagher-squire" condition="Mint" pressing="FirstPressing" edition="LimitedEdition">
         <title>Liam Gallagher &amp; John Squire</title>
         <artist>Liam Gallagher &amp; John Squire</artist>
         <year>2024</year>
@@ -170,7 +170,7 @@
         <price>44.99</price>
         <stock>2</stock>
     </song>
-    <song id="radical-optimism" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="radical-optimism" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Radical Optimism</title>
         <artist>Dua Lipa</artist>
         <year>2024</year>
@@ -178,7 +178,7 @@
         <price>39.99</price>
         <stock>5</stock>
     </song>
-    <song id="guts" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="guts" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Guts</title>
         <artist>Olivia Rodrigo</artist>
         <year>2023</year>
@@ -194,7 +194,7 @@
         <price>39.99</price>
         <stock>3</stock>
     </song>
-    <song id="tangk" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="tangk" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>TANGK</title>
         <artist>IDLES</artist>
         <year>2024</year>
@@ -210,7 +210,7 @@
         <price>34.99</price>
         <stock>3</stock>
     </song>
-    <song id="taylors-version" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+    <song id="taylors-version" condition="Mint" pressing="FirstPressing" edition="LimitedEdition">
         <title>1989 (Taylor's Version)</title>
         <artist>Taylor Swift</artist>
         <year>2023</year>
@@ -234,7 +234,7 @@
         <price>34.99</price>
         <stock>3</stock>
     </song>
-    <song id="stick-season" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="stick-season" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Stick Season</title>
         <artist>Noah Kahan</artist>
         <year>2022</year>
@@ -250,7 +250,7 @@
         <price>39.99</price>
         <stock>3</stock>
     </song>
-    <song id="eternal-sunshine" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+    <song id="eternal-sunshine" condition="Mint" pressing="FirstPressing" edition="LimitedEdition">
         <title>Eternal Sunshine</title>
         <artist>Ariana Grande</artist>
         <year>2024</year>
@@ -258,7 +258,7 @@
         <price>42.99</price>
         <stock>2</stock>
     </song>
-    <song id="from-zero" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="from-zero" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>From Zero</title>
         <artist>Linkin Park</artist>
         <year>2024</year>
@@ -274,7 +274,7 @@
         <price>44.99</price>
         <stock>3</stock>
     </song>
-    <song id="lover" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="lover" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Lover</title>
         <artist>Taylor Swift</artist>
         <year>2019</year>
@@ -282,7 +282,7 @@
         <price>34.99</price>
         <stock>5</stock>
     </song>
-    <song id="folklore" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="folklore" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Folklore</title>
         <artist>Taylor Swift</artist>
         <year>2020</year>
@@ -290,7 +290,7 @@
         <price>39.99</price>
         <stock>4</stock>
     </song>
-    <song id="luck-strange" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+    <song id="luck-strange" condition="Mint" pressing="FirstPressing" edition="LimitedEdition">
         <title>Luck and Strange</title>
         <artist>David Gilmour</artist>
         <year>2024</year>
@@ -306,7 +306,7 @@
         <price>34.99</price>
         <stock>3</stock>
     </song>
-    <song id="saviors" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="saviors" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Saviors</title>
         <artist>Green Day</artist>
         <year>2024</year>
@@ -322,7 +322,7 @@
         <price>34.99</price>
         <stock>3</stock>
     </song>
-    <song id="cowboy-carter" condition="Mint" pressing="First Pressing" edition="Limited Edition">
+    <song id="cowboy-carter" condition="Mint" pressing="FirstPressing" edition="LimitedEdition">
         <title>Cowboy Carter</title>
         <artist>Beyoncé</artist>
         <year>2024</year>
@@ -330,7 +330,7 @@
         <price>49.99</price>
         <stock>2</stock>
     </song>
-    <song id="evermore" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="evermore" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Evermore</title>
         <artist>Taylor Swift</artist>
         <year>2020</year>
@@ -338,7 +338,7 @@
         <price>39.99</price>
         <stock>4</stock>
     </song>
-    <song id="wild-god" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="wild-god" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Wild God</title>
         <artist>Nick Cave &amp; The Bad Seeds</artist>
         <year>2024</year>
@@ -346,7 +346,7 @@
         <price>42.99</price>
         <stock>3</stock>
     </song>
-    <song id="midnights" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="midnights" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Midnights</title>
         <artist>Taylor Swift</artist>
         <year>2022</year>
@@ -354,7 +354,7 @@
         <price>39.99</price>
         <stock>5</stock>
     </song>
-    <song id="66" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="66" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>66</title>
         <artist>Paul Weller</artist>
         <year>2024</year>
@@ -362,7 +362,7 @@
         <price>34.99</price>
         <stock>3</stock>
     </song>
-    <song id="clancy" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="clancy" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Clancy</title>
         <artist>Twenty One Pilots</artist>
         <year>2024</year>
@@ -378,7 +378,7 @@
         <price>34.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-gallagher-squire-rainbow" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-gallagher-squire-rainbow" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Just Another Rainbow</title>
         <artist>Liam Gallagher &amp; John Squire</artist>
         <year>2024</year>
@@ -386,7 +386,7 @@
         <price>14.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-roan-goodluck" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-roan-goodluck" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Good Luck Babe</title>
         <artist>Chappell Roan</artist>
         <year>2024</year>
@@ -394,7 +394,7 @@
         <price>12.99</price>
         <stock>4</stock>
     </song>
-    <song id="single-kahan-stickseason" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-kahan-stickseason" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Stick Season</title>
         <artist>Noah Kahan</artist>
         <year>2024</year>
@@ -402,7 +402,7 @@
         <price>12.99</price>
         <stock>5</stock>
     </song>
-    <song id="single-oasis-supersonic" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-oasis-supersonic" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Supersonic</title>
         <artist>Oasis</artist>
         <year>2024</year> 
@@ -410,7 +410,7 @@
         <price>19.99</price>
         <stock>2</stock>
     </song>
-    <song id="single-wham-lastchristmas" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-wham-lastchristmas" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Last Christmas</title>
         <artist>Wham</artist>
         <year>2024</year>
@@ -418,7 +418,7 @@
         <price>19.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-rodrigo-stickseason" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-rodrigo-stickseason" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Stick Season</title>
         <artist>Olivia Rodrigo</artist> 
         <year>2024</year>
@@ -426,7 +426,7 @@
         <price>14.99</price>
         <stock>4</stock>
     </song>
-    <song id="single-grande-yesand" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-grande-yesand" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Yes And</title>
         <artist>Ariana Grande</artist>
         <year>2024</year>
@@ -434,7 +434,7 @@
         <price>12.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-mccullen-bitch" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-mccullen-bitch" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Bitch</title>
         <artist>Dave McCullen</artist>
         <year>2024</year>
@@ -442,7 +442,7 @@
         <price>14.99</price>
         <stock>2</stock>
     </song>
-    <song id="single-raye-genesis" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-raye-genesis" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Genesis</title>
         <artist>Raye</artist>
         <year>2024</year>
@@ -450,7 +450,7 @@
         <price>12.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-carpenter-espresso" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-carpenter-espresso" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Espresso</title>
         <artist>Sabrina Carpenter</artist>
         <year>2024</year>
@@ -458,7 +458,7 @@
         <price>12.99</price>
         <stock>5</stock>
     </song>
-     <song id="single-lipa-houdini" condition="Mint" pressing="First Pressing" edition="Standard">
+     <song id="single-lipa-houdini" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Houdini</title>
         <artist>Dua Lipa</artist>
         <year>2024</year>
@@ -466,7 +466,7 @@
         <price>14.99</price>
         <stock>4</stock>
     </song>
-    <song id="single-eilish-whatwasimadefor" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-eilish-whatwasimadefor" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>What Was I Made For</title>
         <artist>Billie Eilish</artist>
         <year>2024</year>
@@ -474,7 +474,7 @@
         <price>14.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-lipa-trainingseason" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-lipa-trainingseason" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Training Season</title>
         <artist>Dua Lipa</artist>
         <year>2024</year>
@@ -482,7 +482,7 @@
         <price>14.99</price>
         <stock>4</stock>
     </song>
-    <song id="single-lastdinnerparty-nothingmatters" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-lastdinnerparty-nothingmatters" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Nothing Matters</title>
         <artist>Last Dinner Party</artist>
         <year>2024</year>
@@ -490,7 +490,7 @@
         <price>12.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-knopfler-goinghome" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-knopfler-goinghome" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Going Home (Theme From Local Hero)</title>
         <artist>Mark Knopfler's Guitar Heroes</artist>
         <year>2024</year>
@@ -498,7 +498,7 @@
         <price>19.99</price>
         <stock>2</stock>
     </song>
-    <song id="single-bush-eatthemusic" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-bush-eatthemusic" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Eat The Music</title>
         <artist>Kate Bush</artist>
         <year>2024</year>
@@ -506,7 +506,7 @@
         <price>14.99</price>
         <stock>2</stock>
     </song>
-    <song id="single-michael-carelesswhisper" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-michael-carelesswhisper" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Careless Whisper</title>
         <artist>George Michael</artist>
         <year>2024</year>
@@ -514,7 +514,7 @@
         <price>19.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-bandaid-dotheyknow" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-bandaid-dotheyknow" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Do They Know It's Christmas</title>
         <artist>Band Aid</artist>
         <year>2024</year>
@@ -522,7 +522,7 @@
         <price>19.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-catfish-showtime" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-catfish-showtime" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Showtime</title>
         <artist>Catfish &amp; The Bottlemen</artist>
         <year>2024</year>
@@ -530,7 +530,7 @@
         <price>12.99</price>
         <stock>2</stock>
     </song>
-    <song id="single-quavo-tough" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-quavo-tough" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Tough</title>
         <artist>Quavo/Lana Del Rey</artist>
         <year>2024</year>
@@ -538,7 +538,7 @@
         <price>14.99</price>
         <stock>2</stock>
     </song>
-    <song id="single-carpenter-please" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-carpenter-please" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Please Please Please</title>
         <artist>Sabrina Carpenter</artist>
         <year>2024</year>
@@ -546,7 +546,7 @@
         <price>12.99</price>
         <stock>4</stock>
     </song>
-    <song id="single-queen-coolcat" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-queen-coolcat" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Cool Cat</title>
         <artist>Queen</artist>
         <year>2024</year>
@@ -554,7 +554,7 @@
         <price>19.99</price>
         <stock>2</stock>
     </song>
-    <song id="single-beatles-nowandthen" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-beatles-nowandthen" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Now and Then</title>
         <artist>Beatles</artist>
         <year>2024</year>
@@ -562,7 +562,7 @@
         <price>19.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-noelgallagher-inalittlewhile" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-noelgallagher-inalittlewhile" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>In a Little While</title>
         <artist>Noel Gallagher's High Flying</artist>
         <year>2024</year>
@@ -570,7 +570,7 @@
         <price>14.99</price>
         <stock>2</stock>
     </song>
-    <song id="single-ellisbextor-murder" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-ellisbextor-murder" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Murder on the Dancefloor</title>
         <artist>Sophie Ellis-Bextor</artist>
         <year>2024</year>
@@ -578,7 +578,7 @@
         <price>14.99</price>
         <stock>4</stock>
     </song>
-    <song id="single-wolfalice-creaturesongs" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-wolfalice-creaturesongs" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Creature Songs</title>
         <artist>Wolf Alice</artist>
         <year>2024</year>
@@ -586,7 +586,7 @@
         <price>14.99</price>
         <stock>2</stock>
     </song>
-    <song id="single-u2-atomiccity" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-u2-atomiccity" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Atomic City</title>
         <artist>U2</artist>
         <year>2024</year>
@@ -594,7 +594,7 @@
         <price>14.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-rodrigo-badidearight" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-rodrigo-badidearight" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Bad Idea Right</title>
         <artist>Olivia Rodrigo</artist>
         <year>2024</year>
@@ -602,7 +602,7 @@
         <price>12.99</price>
         <stock>4</stock>
     </song>
-    <song id="single-boygenius-blackhole" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-boygenius-blackhole" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Black Hole</title>
         <artist>Boygenius</artist>
         <year>2024</year>
@@ -610,7 +610,7 @@
         <price>12.99</price>
         <stock>2</stock>
     </song>
-    <song id="single-coldplay-wepray" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-coldplay-wepray" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>We Pray</title>
         <artist>Coldplay</artist>
         <year>2024</year>
@@ -618,7 +618,7 @@
         <price>14.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-1975-milk" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-1975-milk" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Milk</title>
         <artist>1975</artist>
         <year>2024</year>
@@ -626,7 +626,7 @@
         <price>14.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-abba-waterloo" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-abba-waterloo" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Waterloo</title>
         <artist>ABBA</artist>
         <year>2024</year>
@@ -634,7 +634,7 @@
         <price>19.99</price>
         <stock>4</stock>
     </song>
-    <song id="single-jade-angelofmydreams" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-jade-angelofmydreams" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Angel of My Dreams</title>
         <artist>Jade</artist>
         <year>2024</year>
@@ -642,7 +642,7 @@
         <price>12.99</price>
         <stock>2</stock>
     </song>
-    <song id="single-minogue-lightscameraction" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-minogue-lightscameraction" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Lights Camera Action</title>
         <artist>Kylie Minogue</artist>
         <year>2024</year>
@@ -650,7 +650,7 @@
         <price>14.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-minogue-myohmy" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-minogue-myohmy" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>My Oh My</title>
         <artist>Minogue/Bebe Rexha/Tove Lo</artist>
         <year>2024</year>
@@ -658,7 +658,7 @@
         <price>14.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-weller-thatswhatshesaid" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-weller-thatswhatshesaid" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>That's What She Said</title>
         <artist>Paul Weller</artist>
         <year>2024</year>
@@ -666,7 +666,7 @@
         <price>12.99</price>
         <stock>2</stock>
     </song>
-    <song id="single-beatles-iwanttoholdyourhand" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-beatles-iwanttoholdyourhand" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>I Want To Hold Your Hand</title>
         <artist>Beatles</artist>
         <year>2024</year>
@@ -674,7 +674,7 @@
         <price>19.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-lanadelrey-sayyestoheaven" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-lanadelrey-sayyestoheaven" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Say Yes To Heaven</title>
         <artist>Lana Del Rey</artist>
         <year>2024</year>
@@ -682,7 +682,7 @@
         <price>14.99</price>
         <stock>4</stock>
     </song>
-    <song id="single-grande-wecantbefriends" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-grande-wecantbefriends" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>We Can't Be Friends (Wait For Your Love)</title>
         <artist>Ariana Grande</artist>
         <year>2024</year>
@@ -690,7 +690,7 @@
         <price>12.99</price>
         <stock>3</stock>
     </song>
-    <song id="single-weller-soulwandering" condition="Mint" pressing="First Pressing" edition="Standard">
+    <song id="single-weller-soulwandering" condition="Mint" pressing="FirstPressing" edition="Standard">
         <title>Soul Wandering</title>
         <artist>Paul Weller</artist>
         <year>2024</year>
