@@ -18,7 +18,7 @@
                         <ul>
                             <li><a href="main.html">Home</a></li>
                             <li><a href="catalog.html">Catalog</a></li>
-                            <li><a href="viewer.html" class="active">Vinyl Library</a></li>
+                            <li><a href="program.html" class="active">Vinyl Library</a></li>
                         </ul>
                     </nav>
                 </header>
@@ -135,7 +135,7 @@
                             <ul>
                                 <li><a href="main.html">Home</a></li>
                                 <li><a href="catalog.html">Catalog</a></li>
-                                <li><a href="viewer.html">Vinyl Library</a></li>
+                                <li><a href="program.html">Vinyl Library</a></li>
                             </ul>
                         </div>
                         <div class="footer-section">
