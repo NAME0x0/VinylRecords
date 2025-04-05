@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<!--
+  Vinyl Records Library Data
+  Contains information about vinyl records available in the store.
+  Each <song> element represents a single record.
+  Attributes:
+    id: Unique identifier for the record (Required)
+    condition: Condition of the vinyl (Mint, Excellent, Good, Fair, Poor)
+    pressing: Type of pressing (FirstPressing, LimitedEdition, Original)
+    edition: Specific edition (Standard, Remastered, Special, LimitedEdition)
+-->
 <!DOCTYPE songs SYSTEM "data.dtd">
 <songs>
     <song id="led-zeppelin-iv" condition="Mint" pressing="FirstPressing" edition="Standard">

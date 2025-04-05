@@ -553,49 +553,89 @@ tr:hover {
 /* Events section */
 .events-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem;
     margin-top: 2rem;
 }
 
 .event-item {
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(30, 30, 30, 0.7);
     border: 1px solid var(--glass-border);
     border-radius: 20px;
     padding: 2rem;
     transition: var(--hover-transition);
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.event-item::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
+    background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 40%);
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    z-index: 0;
 }
 
 .event-item:hover {
-    transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    transform: translateY(-8px) scale(1.03);
+    background: rgba(40, 40, 40, 0.8);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    border-color: rgba(212, 175, 55, 0.3);
+}
+
+.event-item:hover::before {
+    opacity: 1;
 }
 
 .event-date {
-    background: rgba(212, 175, 55, 0.1);
-    border: 1px solid var(--gold-accent);
+    background: linear-gradient(135deg, var(--gold-accent), var(--claude-orange));
+    color: var(--background-dark);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    min-width: 80px;
+    font-weight: bold;
+    z-index: 1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .event-date .day {
-    color: var(--gold-accent);
-    text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+    display: block;
+    font-size: 2rem;
+    line-height: 1.1;
+    color: #fff;
+    text-shadow: none;
+}
+
+.event-date .month {
+    display: block;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .event-details {
     flex: 1;
+    z-index: 1;
 }
 
 .event-details h3 {
     color: var(--text-primary);
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.3rem;
 }
 
 .event-details p {
     color: var(--text-secondary);
-    margin-bottom: 0.5rem;
-    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
 }
 
 .event-time {
@@ -604,6 +644,13 @@ tr:hover {
     gap: 0.5rem;
     color: var(--claude-orange);
     font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.event-note {
+    font-style: italic;
+    font-size: 0.85rem !important;
+    color: rgba(255, 255, 255, 0.6) !important;
 }
 
 /* Enhanced UI/UX */
@@ -697,28 +744,106 @@ h1, h2, h3 {
 }
 
 /* Enhanced Events Section */
+.events h2 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 2.2rem;
+    color: var(--gold-accent);
+}
+
 .event-item {
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(30, 30, 30, 0.7);
     border: 1px solid var(--glass-border);
     border-radius: 20px;
     padding: 2rem;
     transition: var(--hover-transition);
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.event-item::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
+    background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 40%);
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    z-index: 0;
 }
 
 .event-item:hover {
-    transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    transform: translateY(-8px) scale(1.03);
+    background: rgba(40, 40, 40, 0.8);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    border-color: rgba(212, 175, 55, 0.3);
+}
+
+.event-item:hover::before {
+    opacity: 1;
 }
 
 .event-date {
-    background: rgba(212, 175, 55, 0.1);
-    border: 1px solid var(--gold-accent);
+    background: linear-gradient(135deg, var(--gold-accent), var(--claude-orange));
+    color: var(--background-dark);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    min-width: 80px;
+    font-weight: bold;
+    z-index: 1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .event-date .day {
-    color: var(--gold-accent);
-    text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+    display: block;
+    font-size: 2rem;
+    line-height: 1.1;
+    color: #fff;
+    text-shadow: none;
+}
+
+.event-date .month {
+    display: block;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.event-details {
+    flex: 1;
+    z-index: 1;
+}
+
+.event-details h3 {
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+    font-size: 1.3rem;
+}
+
+.event-details p {
+    color: var(--text-secondary);
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+}
+
+.event-time {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--claude-orange);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.event-note {
+    font-style: italic;
+    font-size: 0.85rem !important;
+    color: rgba(255, 255, 255, 0.6) !important;
 }
 
 /* Enhanced Footer */
@@ -828,8 +953,8 @@ h1, h2, h3 {
 
 /* Add this rule for dropdown options */
 .filter-select option {
-    color: #333; /* Dark grey text color for options */
-    background-color: white; /* Explicitly set background if needed */
+    color: #333;
+    background-color: white;
 }
 
 /* Library Stats */
@@ -989,5 +1114,84 @@ h1, h2, h3 {
     .record-actions {
         opacity: 1;
         transform: none;
+    }
+}
+
+/* Rotating Vinyl Animation */
+.rotating-vinyl {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 80px;
+    height: 80px;
+    z-index: 1001;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+
+.rotating-vinyl:hover {
+    transform: scale(1.15);
+}
+
+.vinyl-disc-animation {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, #333 10%, #1a1a1a 70%);
+    border-radius: 50%;
+    border: 2px solid #444;
+    position: relative;
+    animation: rotateVinyl 4s linear infinite;
+    box-shadow: 
+        0 8px 25px rgba(0, 0, 0, 0.6),
+        inset 0 0 10px rgba(0, 0, 0, 0.5);
+    background-image: 
+        radial-gradient(circle, #333 10%, #1a1a1a 70%),
+        repeating-radial-gradient(circle, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 3px);
+}
+
+.vinyl-disc-animation::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 35%;
+    background: linear-gradient(135deg, var(--gold-accent-light), var(--claude-orange));
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.vinyl-disc-animation::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8%;
+    height: 8%;
+    background: #0A0A0A;
+    border-radius: 50%;
+    z-index: 1;
+    border: 1px solid #000;
+}
+
+@keyframes rotateVinyl {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive adjustments if needed */
+@media (max-width: 768px) {
+    .rotating-vinyl {
+        width: 60px;
+        height: 60px;
+        bottom: 1rem;
+        right: 1rem;
     }
 } 

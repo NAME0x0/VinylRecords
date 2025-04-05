@@ -8,7 +8,7 @@
 <!ELEMENT price (#PCDATA)>
 <!ELEMENT stock (#PCDATA)>
 
-<!ATTLIST song id ID #IMPLIED>
+<!ATTLIST song id ID #REQUIRED>
 <!ATTLIST song condition (Mint|Excellent|Good|Fair|Poor) "Good">
 <!ATTLIST song pressing (FirstPressing|LimitedEdition|Original) "Original">
 <!ATTLIST song edition (Standard|Remastered|Special|LimitedEdition) "Standard"> 
