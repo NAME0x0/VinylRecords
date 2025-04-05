@@ -14,7 +14,7 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
         '.js': 'text/javascript; charset=utf-8',
         '.xml': 'application/xml; charset=utf-8',
         '.xsl': 'application/xml; charset=utf-8',
-        '.dtd': 'application/xml; charset=utf-8',
+        '.dtd': 'application/xml-dtd; charset=utf-8',
         '.woff2': 'font/woff2',
         '.woff': 'font/woff',
         '.ttf': 'font/ttf',

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="html" indent="no" encoding="UTF-8"/>
+    <xsl:output method="html" indent="no" encoding="UTF-8" doctype-public="-//W3C//DTD HTML 4.01//EN" doctype-system="http://www.w3.org/TR/html4/strict.dtd"/>
+
     <xsl:template match="/">
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html lang="en">
@@ -18,7 +19,7 @@
                         <ul>
                             <li><a href="main.html">Home</a></li>
                             <li><a href="catalog.html">Catalog</a></li>
-                            <li><a href="viewer.html" class="active">Vinyl Library</a></li>
+                            <li><a href="program.xml" class="active">Vinyl Library</a></li>
                         </ul>
                     </nav>
                 </header>
@@ -26,6 +27,7 @@
                 <main>
                     <section class="glass-card">
                         <h1>Vinyl Records Library</h1>
+                        
                         <div class="library-controls">
                             <div class="search-box">
                                 <i class="fas fa-search"></i>
@@ -63,28 +65,21 @@
                         </div>
 
                         <section class="stats">
-                            <h2>Library Statistics</h2>
-                            <div class="stats-grid">
-                                <div class="stat-item">
-                                    <i class="fas fa-record-vinyl"></i>
-                                    <h3>Total Records</h3>
-                                    <p><xsl:value-of select="count(songs/song)"/></p>
-                                </div>
-                                <div class="stat-item">
-                                    <i class="fas fa-star"></i>
-                                    <h3>Mint Condition</h3>
-                                    <p><xsl:value-of select="count(songs/song[@condition='Mint'])"/></p>
-                                </div>
-                                <div class="stat-item">
-                                    <i class="fas fa-clock"></i>
-                                    <h3>First Pressings</h3>
-                                    <p><xsl:value-of select="count(songs/song[@pressing='First Pressing'])"/></p>
-                                </div>
-                                <div class="stat-item">
-                                    <i class="fas fa-tag"></i>
-                                    <h3>Limited Editions</h3>
-                                    <p><xsl:value-of select="count(songs/song[@edition='Limited Edition'])"/></p>
-                                </div>
+                            <div class="stat-item">
+                                <i class="fas fa-record-vinyl"></i>
+                                <span>Total Records: <xsl:value-of select="count(songs/song)"/></span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-star"></i>
+                                <span>Mint Condition: <xsl:value-of select="count(songs/song[@condition='Mint'])"/></span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-clock"></i>
+                                <span>First Pressings: <xsl:value-of select="count(songs/song[@pressing='FirstPressing'])"/></span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-tag"></i>
+                                <span>Limited Editions: <xsl:value-of select="count(songs/song[@edition='LimitedEdition'])"/></span>
                             </div>
                         </section>
 
@@ -101,6 +96,7 @@
                                             <th>Price</th>
                                             <th>Condition</th>
                                             <th>Pressing</th>
+                                            <th>Edition</th>
                                             <th>Stock</th>
                                         </tr>
                                     </thead>
@@ -114,6 +110,7 @@
                                                 <td>$<xsl:value-of select="price"/></td>
                                                 <td class="condition-{@condition}"><xsl:value-of select="@condition"/></td>
                                                 <td><xsl:value-of select="@pressing"/></td>
+                                                <td><xsl:value-of select="@edition"/></td>
                                                 <td><xsl:value-of select="stock"/></td>
                                             </tr>
                                         </xsl:for-each>
@@ -128,26 +125,32 @@
                     <div class="footer-content">
                         <div class="footer-section">
                             <h3>About Us</h3>
-                            <p>Your trusted source for rare and collectible vinyl records since 1990.</p>
+                            <p>Dubai's premier destination for premium vinyl records and high-fidelity listening experiences since 2007.</p>
                         </div>
                         <div class="footer-section">
                             <h3>Quick Links</h3>
                             <ul>
                                 <li><a href="main.html">Home</a></li>
                                 <li><a href="catalog.html">Catalog</a></li>
-                                <li><a href="viewer.html">Vinyl Library</a></li>
+                                <li><a href="program.xml">Vinyl Library</a></li>
                             </ul>
                         </div>
                         <div class="footer-section">
                             <h3>Contact</h3>
                             <p>Email: info@vinylrecords.ae</p>
                             <p>Phone: +971 4 123 4567</p>
+                            <p>Private consultations available.</p>
                         </div>
                     </div>
                     <div class="footer-bottom">
-                        <p>&#169; 2024 Vinyl Records Library. All rights reserved.</p>
+                        <p>&#169; 2025 Vinyl Records. Developed by Afsah, Aathrey, Nikhil. All rights reserved.</p>
                     </div>
                 </footer>
+
+                <div class="rotating-vinyl">
+                    <div class="vinyl-disc-animation"></div>
+                </div>
+
             </body>
         </html>
     </xsl:template>
