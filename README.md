@@ -56,7 +56,7 @@ The design employs a dark theme with gold and orange accents, utilizing glassmor
 
 ### Deployed Version
 
-The website is automatically deployed to GitHub Pages. The live URL will be based on your GitHub username and repository name (e.g., `https://<username>.github.io/<repository-name>/`). Note that GitHub Pages uses `index.html` as the entry point, which is a copy of `main.html` created during deployment.
+The website is automatically deployed to GitHub Pages. The live URL will be based on your GitHub username and repository name (e.g., `https://NAME0x0.github.io/VinylRecords/`). Please keep in mind that GitHub Pages uses `index.html` as the entry point, which is a copy of `main.html` created during deployment.
 
 ## Technologies Used
 
